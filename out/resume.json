@@ -1,0 +1,195 @@
+{
+  "name": "Jahziel Villasana-Espinoza",
+  "info": {
+    "label": "Software Engineer, Computer Science Undergrad",
+    "brief": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He loves all environments and languages, but has a special affinity for the Web."
+  },
+  "contact": {
+    "email": "jahz@gatech.edu",
+    "phone": "(404)-428-7664"
+  },
+  "meta": {
+    "version": "v1.0.0",
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2019-03-27T15:48:46.471Z",
+    "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
+  },
+  "location": {
+    "city": "Atlanta",
+    "region": "Georgia",
+    "country": "US",
+    "code": "30318",
+    "address": "1090 Atlantic Dr. NW"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Co-op Engineer",
+        "employer": "Yokogawa Corp. of America",
+        "summary": "",
+        "start": "2017-08-20",
+        "end": "2019-05-03",
+        "keywords": [],
+        "highlights": [
+          "Developed .NET applications for a variety of departments with focus on streamlining and automating existing business processes",
+          "Developed an Android application that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year",
+          "Responsible for implementing software development infrastructure including Scrum-based workflow and continuous integration",
+          "Gave presentations on benefits of software infrastructure and internal development to upper management, including VP of manufacturing"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "Georgia Institute of Technology",
+        "start": "2015-08-20",
+        "end": "2020-12-14",
+        "grade": "3.38",
+        "curriculum": [
+          "CS1332 - Data Structures and Algorithms",
+          "CS2110 - Computer Organization and Programming: Assembly and C",
+          "CS220: Intro to Systems and Networking",
+          "CS4240 - Compilers and Interpreters",
+          "Capstone Project"
+        ],
+        "summary": "",
+        "area": "Computer Science",
+        "studyType": "B.S"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Languages",
+        "skills": [
+          "JavaScript",
+          "Python",
+          "C#",
+          "C",
+          "Java",
+          "Scala"
+        ]
+      },
+      {
+        "name": "Web",
+        "level": "",
+        "skills": [
+          "Node.js",
+          "Flask",
+          "React",
+          "Redux",
+          "Jekyll",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name": "Windows",
+        "skills": [
+          "WPF",
+          "WinForms",
+          "ASP.NET MVC"
+        ]
+      },
+      {
+        "name": "Version Control",
+        "skills": [
+          "Git"
+        ]
+      },
+      {
+        "name": "Android",
+        "skills": [
+          "Android Studio",
+          "Gradle"
+        ]
+      },
+      {
+        "name": "Databases",
+        "skills": [
+          "SQLite",
+          "SQL Server",
+          "MS Access"
+        ]
+      },
+      {
+        "name": "Cloud Services",
+        "skills": [
+          "Google App Engine",
+          "Azure"
+        ]
+      },
+      {
+        "name": "Agile",
+        "skills": [
+          "JIRA",
+          "Trello",
+          "Zenhub"
+        ]
+      },
+      {
+        "name": "Linux/Unix",
+        "skills": [
+          "Ubuntu",
+          "Bash",
+          "vim"
+        ]
+      }
+    ]
+  },
+  "social": [
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "httsp://twitter.com/jahz_v",
+      "user": "jahz_v"
+    },
+    {
+      "label": "Github",
+      "network": "Github",
+      "url": "https://github.com/jahzielv",
+      "user": "jahzielv"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Camping",
+        "Hiking",
+        "Rock Climbing"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Acoustic Guitar",
+        "Bass Guitar",
+        "Electric Guitar",
+        "Percussion"
+      ]
+    },
+    {
+      "name": "Kendama"
+    },
+    {
+      "name": "Mechanical Keyboards"
+    },
+    {
+      "name": "Reading"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ]
+}

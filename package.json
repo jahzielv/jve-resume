@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "jsonresume-theme-eloquent": "^4.1.0"
-  }
+    "dependencies": {
+        "jsonresume-theme-dark-classy-responsive": "^1.0.3",
+        "jsonresume-theme-even": "^0.2.1",
+        "jsonresume-theme-moon": "^1.7.22",
+        "jsonresume-theme-spartan": "^0.2.1",
+        "jsonresume-theme-stackoverflow": "^1.4.0",
+        "jsonresume-theme-stackoverflow2": "^1.0.6"
+    },
+    "scripts": {
+        "theme": "fluentcv build jve-resume.json to out/resume.all -t ./node_modules/jsonresume-theme-"
+    }
 }

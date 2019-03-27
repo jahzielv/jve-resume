@@ -1,0 +1,201 @@
+basics:
+  name: 'Jahziel Villasana-Espinoza'
+  label: 'Software Engineer, Computer Science Undergrad'
+  image: ""
+  email: jahz@gatech.edu
+  phone: (404)-428-7664
+  url: 'https://jahz.co'
+  summary: 'Jahziel is passionate about making people''s lives easier through elegant, well-crafted software. He loves all environments and languages, but has a special affinity for the Web.'
+  location:
+    address: '1090 Atlantic Dr. NW'
+    postalCode: '30318'
+    city: Atlanta
+    countryCode: US
+    region: Georgia
+  profiles:
+    -
+      network: Twitter
+      username: jahz_v
+      url: 'httsp://twitter.com/jahz_v'
+    -
+      network: Github
+      username: jahzielv
+      url: 'https://github.com/jahzielv'
+work:
+  -
+    company: 'Yokogawa Corp. of America'
+    location:
+      city: Newnan
+      countryCode: US
+      region: Georgia
+    description: 'Manufacturing Company'
+    position: 'Co-op Engineer'
+    url: 'https://yokogawa.com/us'
+    startDate: '2017-08-20'
+    endDate: '2019-05-03'
+    summary: ""
+    highlights:
+      - 'Developed .NET applications for a variety of departments with focus on streamlining and automating existing business processes'
+      - 'Developed an Android application that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year'
+      - 'Responsible for implementing software development infrastructure including Scrum-based workflow and continuous integration'
+      - 'Gave presentations on benefits of software infrastructure and internal development to upper management, including VP of manufacturing'
+education:
+  -
+    institution: 'Georgia Institute of Technology'
+    area: 'Computer Science'
+    studyType: B.S
+    startDate: '2015-08-20'
+    endDate: '2020-12-14'
+    gpa: '3.38'
+    courses:
+      - 'CS1332 - Data Structures and Algorithms'
+      - 'CS2110 - Computer Organization and Programming: Assembly and C'
+      - 'CS220: Intro to Systems and Networking'
+      - 'CS4240 - Compilers and Interpreters'
+      - 'Capstone Project'
+skills:
+  -
+    name: Languages
+    keywords:
+      - JavaScript
+      - Python
+      - 'C#'
+      - C
+      - Java
+      - Scala
+  -
+    name: Web
+    level: ""
+    keywords:
+      - Node.js
+      - Flask
+      - React
+      - Redux
+      - Jekyll
+      - HTML
+      - CSS
+  -
+    name: Windows
+    keywords:
+      - WPF
+      - WinForms
+      - 'ASP.NET MVC'
+  -
+    name: 'Version Control'
+    keywords:
+      - Git
+  -
+    name: Android
+    keywords:
+      - 'Android Studio'
+      - Gradle
+  -
+    name: Databases
+    keywords:
+      - SQLite
+      - 'SQL Server'
+      - 'MS Access'
+  -
+    name: 'Cloud Services'
+    keywords:
+      - 'Google App Engine'
+      - Azure
+  -
+    name: Agile
+    keywords:
+      - JIRA
+      - Trello
+      - Zenhub
+  -
+    name: Linux/Unix
+    keywords:
+      - Ubuntu
+      - Bash
+      - vim
+languages:
+  -
+    language: English
+    fluency: 'Native speaker'
+  -
+    language: Spanish
+    fluency: 'Native speaker'
+interests:
+  -
+    name: Outdoors
+    keywords:
+      - Camping
+      - Hiking
+      - 'Rock Climbing'
+  -
+    name: Music
+    keywords:
+      - 'Acoustic Guitar'
+      - 'Bass Guitar'
+      - 'Electric Guitar'
+      - Percussion
+  -
+    name: Kendama
+  -
+    name: 'Mechanical Keyboards'
+  -
+    name: Reading
+projects:
+  -
+    name: Ankiport
+    description: 'A web app that converts Quizlets to Anki decks.'
+    keywords:
+      - JavaScript
+      - React
+      - Flask
+    url: 'https://www.ankiport.com'
+    roles:
+      - 'Full Stack Developer'
+    type: application
+  -
+    name: 'Purple Pundit'
+    description: 'A news app that shows you content from both sides of the political spectrum.'
+    keywords:
+      - JavaScript
+      - React
+      - Redux
+      - News
+    url: 'https://purplepundit.co'
+    roles: 'Full Stack Developer'
+    type: application
+  -
+    name: jahz.co
+    description: 'My personal website and blog.'
+    keywords:
+      - HTML
+      - CSS
+      - 'Vanilla JavaScript'
+      - Jekyll
+    url: 'https://jahz.co'
+    type: website
+  -
+    name: 'CS2110 Final Assignment'
+    description: 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free).'
+    highlights:
+      - 'Perfect Grade!'
+    keywords:
+      - C
+      - 'dynamic memory allocation'
+    type: assignment
+  -
+    name: 'Capstone Project: Production Management Application'
+    description: 'A web app built to track and analyze production statistics for Yokogawa Corporation of America.'
+    keywords:
+      - JavaScript
+      - React
+      - Redux
+      - Azure
+      - 'SQL Server'
+      - 'REST API'
+    roles:
+      - 'Full Stack Developer'
+      - 'API Designer'
+    type: assignment
+meta:
+  canonical: 'https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json'
+  version: v1.0.0
+  lastModified: '2017-12-24T15:53:00'

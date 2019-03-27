@@ -18,7 +18,7 @@
             {
                 "network": "Twitter",
                 "username": "jahz_v",
-                "url": ""
+                "url": "httsp://twitter.com/jahz_v"
             },
             {
                 "network": "Github",
@@ -29,106 +29,158 @@
     },
     "work": [
         {
-            "name": "Pied Piper",
-            "location": "Palo Alto, CA",
-            "description": "Awesome compression company",
-            "position": "CEO/President",
-            "url": "http://piedpiper.example.com",
-            "startDate": "2013-12-01",
-            "endDate": "2014-12-01",
-            "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+            "company": "Yokogawa Corp. of America",
+            "location": { "city": "Newnan", "countryCode": "US", "region": "Georgia" },
+            "description": "Manufacturing Company",
+            "position": "Co-op Engineer",
+            "url": "https://yokogawa.com/us",
+            "startDate": "2017-08-20",
+            "endDate": "2019-05-03",
+            "summary": "",
             "highlights": [
-                "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-                "Successfully won Techcrunch Disrupt",
-                "Optimized an algorithm that holds the current world record for Weisman Scores"
+                "Developed .NET applications for a variety of departments with focus on streamlining and automating existing business processes",
+                "Developed an Android application that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year",
+                "Responsible for implementing software development infrastructure including Scrum-based workflow and continuous integration",
+                "Gave presentations on benefits of software infrastructure and internal development to upper management, including VP of manufacturing"
             ]
         }
     ],
-    "volunteer": [
-        {
-            "organization": "CoderDojo",
-            "position": "Teacher",
-            "url": "http://coderdojo.example.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Global movement of free coding clubs for young people.",
-            "highlights": ["Awarded 'Teacher of the Month'"]
-        }
-    ],
+
     "education": [
         {
-            "institution": "University of Oklahoma",
-            "area": "Information Technology",
-            "studyType": "Bachelor",
-            "startDate": "2011-06-01",
-            "endDate": "2014-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Digital Compression Pioneer Award",
-            "date": "2014-11-01",
-            "awarder": "Techcrunch",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Video compression for 3d media",
-            "publisher": "Hooli",
-            "releaseDate": "2014-10-01",
-            "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-            "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+            "institution": "Georgia Institute of Technology",
+            "area": "Computer Science",
+            "studyType": "B.S",
+            "startDate": "2015-08-20",
+            "endDate": "2020-12-14",
+            "gpa": "3.38",
+            "courses": [
+                "CS1332 - Data Structures and Algorithms",
+                "CS2110 - Computer Organization and Programming: Assembly and C",
+                "CS220: Intro to Systems and Networking",
+                "CS4240 - Compilers and Interpreters",
+                "Capstone Project"
+            ]
         }
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Languages",
+            "keywords": ["JavaScript", "Python", "C#", "C", "Java", "Scala"]
         },
         {
-            "name": "Compression",
-            "level": "Master",
-            "keywords": ["Mpeg", "MP4", "GIF"]
+            "name": "Web",
+            "level": "",
+            "keywords": ["Node.js", "Flask", "React", "Redux", "Jekyll", "HTML", "CSS"]
+        },
+        {
+            "name": "Windows",
+            "keywords": ["WPF", "WinForms", "ASP.NET MVC"]
+        },
+        {
+            "name": "Version Control",
+            "keywords": ["Git"]
+        },
+        {
+            "name": "Android",
+            "keywords": ["Android Studio", "Gradle"]
+        },
+        {
+            "name": "Databases",
+            "keywords": ["SQLite", "SQL Server", "MS Access"]
+        },
+        {
+            "name": "Cloud Services",
+            "keywords": ["Google App Engine", "Azure"]
+        },
+        {
+            "name": "Agile",
+            "keywords": ["JIRA", "Trello", "Zenhub"]
+        },
+        {
+            "name": "Linux/Unix",
+            "keywords": ["Ubuntu", "Bash", "vim"]
         }
     ],
     "languages": [
         {
             "language": "English",
             "fluency": "Native speaker"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Native speaker"
         }
     ],
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
-        }
-    ],
-    "references": [
+            "name": "Outdoors",
+            "keywords": ["Camping", "Hiking", "Rock Climbing"]
+        },
         {
-            "name": "Erlich Bachman",
-            "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+            "name": "Music",
+            "keywords": [
+                "Acoustic Guitar",
+                "Bass Guitar",
+                "Electric Guitar",
+                "Percussion"
+            ]
+        },
+        {
+            "name": "Kendama"
+        },
+        {
+            "name": "Mechanical Keyboards"
+        },
+
+        {
+            "name": "Reading"
         }
     ],
     "projects": [
         {
-            "name": "Miss Direction",
-            "description": "A mapping engine that misguides you",
-            "highlights": [
-                "Won award at AIHacks 2016",
-                "Built by all women team of newbie programmers",
-                "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-            ],
-            "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
-            "startDate": "2016-08-24",
-            "endDate": "2016-08-24",
-            "url": "missdirection.example.com",
-            "roles": ["Team lead", "Designer"],
-            "entity": "Smoogle",
+            "name": "Ankiport",
+            "description": "A web app that converts Quizlets to Anki decks.",
+            "keywords": ["JavaScript", "React", "Flask"],
+            "url": "https://www.ankiport.com",
+            "roles": ["Full Stack Developer"],
             "type": "application"
+        },
+        {
+            "name": "Purple Pundit",
+            "description": "A news app that shows you content from both sides of the political spectrum.",
+            "keywords": ["JavaScript", "React", "Redux", "News"],
+            "url": "https://purplepundit.co",
+            "roles": "Full Stack Developer",
+            "type": "application"
+        },
+        {
+            "name": "jahz.co",
+            "description": "My personal website and blog.",
+            "keywords": ["HTML", "CSS", "Vanilla JavaScript", "Jekyll"],
+            "url": "https://jahz.co",
+            "type": "website"
+        },
+        {
+            "name": "CS2110 Final Assignment",
+            "description": "Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free).",
+            "highlights": ["Perfect Grade!"],
+            "keywords": ["C", "dynamic memory allocation"],
+            "type": "assignment"
+        },
+        {
+            "name": "Capstone Project: Production Management Application",
+            "description": "A web app built to track and analyze production statistics for Yokogawa Corporation of America.",
+            "keywords": [
+                "JavaScript",
+                "React",
+                "Redux",
+                "Azure",
+                "SQL Server",
+                "REST API"
+            ],
+            "roles": ["Full Stack Developer", "API Designer"],
+            "type": "assignment"
         }
     ],
     "meta": {
