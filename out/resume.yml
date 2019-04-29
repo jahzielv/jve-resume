@@ -62,7 +62,7 @@ skills:
       - 'C#'
       - C
       - Java
-      - Scala
+      - Go
   -
     name: Web
     level: ""

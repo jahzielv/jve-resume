@@ -1,0 +1,15 @@
+{
+    "name": "jsonresume-theme-stackoverflow3",
+    "version": "1.0.0",
+    "description": "Yet another Stack Overflow resume theme",
+    "author": "jve",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jahzielv/jsonresume-theme-stackoverflow3"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "handlebars": "latest",
+        "moment": "latest"
+    }
+}
