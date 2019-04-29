@@ -9,9 +9,9 @@
     "phone": "(404)-428-7664"
   },
   "meta": {
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-04-29T13:32:52.681Z",
+    "modified": "2019-04-29T13:47:03.643Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -63,25 +63,24 @@
   "skills": {
     "sets": [
       {
-        "name": "Languages",
+        "name": "Programming Languages",
         "skills": [
           "JavaScript",
+          "Go",
           "Python",
           "C#",
-          "C",
           "Java",
-          "Go"
+          "C"
         ]
       },
       {
-        "name": "Web",
-        "level": "",
+        "name": "Web Stuff",
         "skills": [
           "Node.js",
-          "Flask",
           "React",
           "Redux",
           "Jekyll",
+          "Flask",
           "HTML",
           "CSS"
         ]
@@ -97,7 +96,8 @@
       {
         "name": "Version Control",
         "skills": [
-          "Git"
+          "Git",
+          "GitHub"
         ]
       },
       {

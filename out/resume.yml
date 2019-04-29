@@ -55,23 +55,22 @@ education:
       - 'Capstone Project'
 skills:
   -
-    name: Languages
+    name: 'Programming Languages'
     keywords:
       - JavaScript
+      - Go
       - Python
       - 'C#'
-      - C
       - Java
-      - Go
+      - C
   -
-    name: Web
-    level: ""
+    name: 'Web Stuff'
     keywords:
       - Node.js
-      - Flask
       - React
       - Redux
       - Jekyll
+      - Flask
       - HTML
       - CSS
   -
@@ -84,6 +83,7 @@ skills:
     name: 'Version Control'
     keywords:
       - Git
+      - GitHub
   -
     name: Android
     keywords:
@@ -156,6 +156,7 @@ projects:
     description: 'A news app that shows you content from both sides of the political spectrum.'
     keywords:
       - JavaScript
+      - Node.js
       - React
       - Redux
       - News
@@ -191,11 +192,12 @@ projects:
       - Azure
       - 'SQL Server'
       - 'REST API'
+      - Node.js
     roles:
       - 'Full Stack Developer'
       - 'API Designer'
     type: assignment
 meta:
   canonical: 'https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json'
-  version: v1.0.0
-  lastModified: '2017-12-24T15:53:00'
+  version: v1.0.1
+  lastModified: '2019-04-29'

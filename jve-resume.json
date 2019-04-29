@@ -65,13 +65,12 @@
     ],
     "skills": [
         {
-            "name": "Languages",
-            "keywords": ["JavaScript", "Python", "C#", "C", "Java", "Go"]
+            "name": "Programming Languages",
+            "keywords": ["JavaScript", "Go", "Python", "C#", "Java", "C"]
         },
         {
-            "name": "Web",
-            "level": "",
-            "keywords": ["Node.js", "Flask", "React", "Redux", "Jekyll", "HTML", "CSS"]
+            "name": "Web Stuff",
+            "keywords": ["Node.js", "React", "Redux", "Jekyll", "Flask", "HTML", "CSS"]
         },
         {
             "name": "Windows",
@@ -79,7 +78,7 @@
         },
         {
             "name": "Version Control",
-            "keywords": ["Git"]
+            "keywords": ["Git", "GitHub"]
         },
         {
             "name": "Android",
@@ -149,7 +148,7 @@
         {
             "name": "Purple Pundit",
             "description": "A news app that shows you content from both sides of the political spectrum.",
-            "keywords": ["JavaScript", "React", "Redux", "News"],
+            "keywords": ["JavaScript", "Node.js", "React", "Redux", "News"],
             "url": "https://purplepundit.co",
             "roles": "Full Stack Developer",
             "type": "application"
@@ -177,7 +176,8 @@
                 "Redux",
                 "Azure",
                 "SQL Server",
-                "REST API"
+                "REST API",
+                "Node.js"
             ],
             "roles": ["Full Stack Developer", "API Designer"],
             "type": "assignment"
@@ -185,7 +185,7 @@
     ],
     "meta": {
         "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-        "version": "v1.0.0",
-        "lastModified": "2017-12-24T15:53:00"
+        "version": "v1.0.1",
+        "lastModified": "2019-04-29"
     }
 }
