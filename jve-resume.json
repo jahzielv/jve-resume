@@ -6,7 +6,7 @@
         "email": "jahz@gatech.edu",
         "phone": "(404)-428-7664",
         "url": "https://jahz.co",
-        "summary": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He loves all environments and languages, but has a special affinity for the Web.",
+        "summary": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He loves all environments and languages, but has a special affinity for the Web, and is looking to break into the Web tooling/standards space.",
         "location": {
             "address": "1090 Atlantic Dr. NW",
             "postalCode": "30318",
@@ -43,6 +43,13 @@
                 "Responsible for implementing software development infrastructure including Scrum-based workflow and continuous integration",
                 "Gave presentations on benefits of software infrastructure and internal development to upper management, including VP of manufacturing"
             ]
+        },
+        {
+            "company": "State Farm",
+            "location": { "city": "Atlanta", "countryCode": "US", "region": "Georgia" },
+            "position": "Software Engineering Intern",
+            "startDate": "2019-05-13",
+            "summary": "Joined a small Enterprise Technology team that maintains several microservices and APIs for the Claims side of State Farm's business, using Spring, Node, and AWS."
         }
     ],
 

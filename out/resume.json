@@ -2,7 +2,7 @@
   "name": "Jahziel Villasana-Espinoza",
   "info": {
     "label": "Software Engineer, Computer Science Undergrad",
-    "brief": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He loves all environments and languages, but has a special affinity for the Web."
+    "brief": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He loves all environments and languages, but has a special affinity for the Web, and is looking to break into the Web tooling/standards space."
   },
   "contact": {
     "email": "jahz@gatech.edu",
@@ -11,7 +11,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-04-29T13:47:03.643Z",
+    "modified": "2019-05-30T00:31:32.610Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -23,6 +23,14 @@
   },
   "employment": {
     "history": [
+      {
+        "position": "Software Engineering Intern",
+        "employer": "State Farm",
+        "summary": "Joined a small Enterprise Technology team that maintains several microservices and APIs for the Claims side of State Farm's business, using Spring, Node, and AWS.",
+        "current": true,
+        "start": "2019-05-13",
+        "keywords": []
+      },
       {
         "position": "Co-op Engineer",
         "employer": "Yokogawa Corp. of America",
