@@ -460,17 +460,20 @@
                           {{/if}}
                       </span>
                       <div class="header-left">
-                          {{#if name}}
-                            <span class="name">
-                                {{name}}
-                            </span>
-												  {{/if}}
+
 												{{#if url}}
-												    <span class="company">
-															<span class="website">
-			                                <a href="{{website}}">{{url}}</a>
-			                            </span>
+
+													{{#if name}}
+														<span class="name">
+															<a href="{{url}}">{{name}}</a>
 														</span>
+													{{/if}}
+												{{else}}
+														{{#if name}}
+															<span class="name">
+																{{name}}
+															</span>
+														{{/if}}
                         {{/if}}
                     </div>
                     {{#if releaseDate}}

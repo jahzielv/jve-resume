@@ -265,12 +265,12 @@ h2.section-title {
     font-weight: 600;
 }
 
-.company::before,
+/* .company::before,
 .institution::before,
 .organization::before,
 .awarder::before {
-    content: "at "
-}
+    content: ": "
+} */
 
 .company,
 .institution,
