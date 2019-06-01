@@ -2,7 +2,7 @@
   "name": "Jahziel Villasana-Espinoza",
   "info": {
     "label": "Software Engineer, Computer Science Undergrad",
-    "brief": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He loves all environments and languages, but has a special affinity for the Web, and is looking to break into the Web tooling/standards space."
+    "brief": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He has a special affinity for the Web, all things Open Source, Web tooling, and standards maintenance and implementation."
   },
   "contact": {
     "email": "jahz@gatech.edu",
@@ -11,22 +11,22 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-05-30T00:31:32.610Z",
+    "modified": "2019-06-01T04:49:15.320Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
-    "city": "Atlanta",
+    "city": "Duluth",
     "region": "Georgia",
     "country": "US",
-    "code": "30318",
-    "address": "1090 Atlantic Dr. NW"
+    "code": "30096",
+    "address": "4888 Duncan Wood Dr."
   },
   "employment": {
     "history": [
       {
         "position": "Software Engineering Intern",
         "employer": "State Farm",
-        "summary": "Joined a small Enterprise Technology team that maintains several microservices and APIs for the Claims side of State Farm's business, using Spring, Node, and AWS.",
+        "summary": "Joined a small Enterprise Technology team that maintains several microservices and APIs for the Claims side of State Farm's business, using Spring, Node.js, and AWS.",
         "current": true,
         "start": "2019-05-13",
         "keywords": []
@@ -39,9 +39,8 @@
         "end": "2019-05-03",
         "keywords": [],
         "highlights": [
-          "Developed .NET applications for a variety of departments with focus on streamlining and automating existing business processes",
-          "Developed an Android application that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year",
-          "Responsible for implementing software development infrastructure including Scrum-based workflow and continuous integration",
+          "Developed .NET apps for a variety of departments with focus on streamlining and automating existing business processes",
+          "Developed an Android app that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year",
           "Gave presentations on benefits of software infrastructure and internal development to upper management, including VP of manufacturing"
         ]
       }
@@ -58,7 +57,7 @@
         "curriculum": [
           "CS1332 - Data Structures and Algorithms",
           "CS2110 - Computer Organization and Programming: Assembly and C",
-          "CS220: Intro to Systems and Networking",
+          "CS2200: Intro to Systems and Networking",
           "CS4240 - Compilers and Interpreters",
           "Capstone Project"
         ],
@@ -75,14 +74,14 @@
         "skills": [
           "JavaScript",
           "Go",
+          "C",
           "Python",
           "C#",
-          "Java",
-          "C"
+          "Java"
         ]
       },
       {
-        "name": "Web Stuff",
+        "name": "The Web!",
         "skills": [
           "Node.js",
           "React",
@@ -94,25 +93,10 @@
         ]
       },
       {
-        "name": "Windows",
-        "skills": [
-          "WPF",
-          "WinForms",
-          "ASP.NET MVC"
-        ]
-      },
-      {
-        "name": "Version Control",
+        "name": "Source Control",
         "skills": [
           "Git",
           "GitHub"
-        ]
-      },
-      {
-        "name": "Android",
-        "skills": [
-          "Android Studio",
-          "Gradle"
         ]
       },
       {
@@ -120,22 +104,7 @@
         "skills": [
           "SQLite",
           "SQL Server",
-          "MS Access"
-        ]
-      },
-      {
-        "name": "Cloud Services",
-        "skills": [
-          "Google App Engine",
-          "Azure"
-        ]
-      },
-      {
-        "name": "Agile",
-        "skills": [
-          "JIRA",
-          "Trello",
-          "Zenhub"
+          "DynamoDB"
         ]
       },
       {
@@ -152,7 +121,7 @@
     {
       "label": "Twitter",
       "network": "Twitter",
-      "url": "httsp://twitter.com/jahz_v",
+      "url": "https://twitter.com/jahz_v",
       "user": "jahz_v"
     },
     {
@@ -164,30 +133,20 @@
   ],
   "interests": [
     {
-      "name": "Outdoors",
+      "name": "Web Standards",
       "keywords": [
-        "Camping",
-        "Hiking",
-        "Rock Climbing"
+        "ECMAScript",
+        "documentation",
+        "implemetation (browsers, engines)"
       ]
     },
     {
-      "name": "Music",
+      "name": "Open Source",
       "keywords": [
-        "Acoustic Guitar",
-        "Bass Guitar",
-        "Electric Guitar",
-        "Percussion"
+        "maintenance",
+        "culture",
+        "community building"
       ]
-    },
-    {
-      "name": "Kendama"
-    },
-    {
-      "name": "Mechanical Keyboards"
-    },
-    {
-      "name": "Reading"
     }
   ],
   "languages": [

@@ -5,18 +5,18 @@ basics:
   email: jahz@gatech.edu
   phone: (404)-428-7664
   url: 'https://jahz.co'
-  summary: 'Jahziel is passionate about making people''s lives easier through elegant, well-crafted software. He loves all environments and languages, but has a special affinity for the Web, and is looking to break into the Web tooling/standards space.'
+  summary: 'Jahziel is passionate about making people''s lives easier through elegant, well-crafted software. He has a special affinity for the Web, all things Open Source, Web tooling, and standards maintenance and implementation.'
   location:
-    address: '1090 Atlantic Dr. NW'
-    postalCode: '30318'
-    city: Atlanta
+    address: '4888 Duncan Wood Dr.'
+    postalCode: '30096'
+    city: Duluth
     countryCode: US
     region: Georgia
   profiles:
     -
       network: Twitter
       username: jahz_v
-      url: 'httsp://twitter.com/jahz_v'
+      url: 'https://twitter.com/jahz_v'
     -
       network: Github
       username: jahzielv
@@ -30,7 +30,7 @@ work:
       region: Georgia
     position: 'Software Engineering Intern'
     startDate: '2019-05-13'
-    summary: 'Joined a small Enterprise Technology team that maintains several microservices and APIs for the Claims side of State Farm''s business, using Spring, Node, and AWS.'
+    summary: 'Joined a small Enterprise Technology team that maintains several microservices and APIs for the Claims side of State Farm''s business, using Spring, Node.js, and AWS.'
   -
     company: 'Yokogawa Corp. of America'
     location:
@@ -44,9 +44,8 @@ work:
     endDate: '2019-05-03'
     summary: ""
     highlights:
-      - 'Developed .NET applications for a variety of departments with focus on streamlining and automating existing business processes'
-      - 'Developed an Android application that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year'
-      - 'Responsible for implementing software development infrastructure including Scrum-based workflow and continuous integration'
+      - 'Developed .NET apps for a variety of departments with focus on streamlining and automating existing business processes'
+      - 'Developed an Android app that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year'
       - 'Gave presentations on benefits of software infrastructure and internal development to upper management, including VP of manufacturing'
 education:
   -
@@ -59,7 +58,7 @@ education:
     courses:
       - 'CS1332 - Data Structures and Algorithms'
       - 'CS2110 - Computer Organization and Programming: Assembly and C'
-      - 'CS220: Intro to Systems and Networking'
+      - 'CS2200: Intro to Systems and Networking'
       - 'CS4240 - Compilers and Interpreters'
       - 'Capstone Project'
 skills:
@@ -68,12 +67,12 @@ skills:
     keywords:
       - JavaScript
       - Go
+      - C
       - Python
       - 'C#'
       - Java
-      - C
   -
-    name: 'Web Stuff'
+    name: 'The Web!'
     keywords:
       - Node.js
       - React
@@ -83,38 +82,16 @@ skills:
       - HTML
       - CSS
   -
-    name: Windows
-    keywords:
-      - WPF
-      - WinForms
-      - 'ASP.NET MVC'
-  -
-    name: 'Version Control'
+    name: 'Source Control'
     keywords:
       - Git
       - GitHub
-  -
-    name: Android
-    keywords:
-      - 'Android Studio'
-      - Gradle
   -
     name: Databases
     keywords:
       - SQLite
       - 'SQL Server'
-      - 'MS Access'
-  -
-    name: 'Cloud Services'
-    keywords:
-      - 'Google App Engine'
-      - Azure
-  -
-    name: Agile
-    keywords:
-      - JIRA
-      - Trello
-      - Zenhub
+      - DynamoDB
   -
     name: Linux/Unix
     keywords:
@@ -130,25 +107,37 @@ languages:
     fluency: 'Native speaker'
 interests:
   -
-    name: Outdoors
+    name: 'Web Standards'
     keywords:
-      - Camping
-      - Hiking
-      - 'Rock Climbing'
+      - ECMAScript
+      - documentation
+      - 'implemetation (browsers, engines)'
   -
-    name: Music
+    name: 'Open Source'
     keywords:
-      - 'Acoustic Guitar'
-      - 'Bass Guitar'
-      - 'Electric Guitar'
-      - Percussion
-  -
-    name: Kendama
-  -
-    name: 'Mechanical Keyboards'
-  -
-    name: Reading
+      - maintenance
+      - culture
+      - 'community building'
 projects:
+  -
+    name: 'CS2110 Final Assignment: C memory library'
+    description: 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free).'
+    highlights:
+      - 'Perfect Grade!'
+    keywords:
+      - C
+      - 'dynamic memory allocation'
+    type: assignment
+  -
+    name: 'MDN JS Docs'
+    description: 'Documenting recent ECMAScript features on MDN. Tasks include updating compat data, writing interactive examples, and writing entire reference pages with the help of various standards specification documents.'
+    keywords:
+      - JavaScript
+      - ECMAScript
+      - MDN
+      - documentation
+      - standards
+    url: 'https://developer.mozilla.org/en-US/profiles/jahzielv'
   -
     name: Ankiport
     description: 'A web app that converts Quizlets to Anki decks.'
@@ -161,17 +150,23 @@ projects:
       - 'Full Stack Developer'
     type: application
   -
-    name: 'Purple Pundit'
-    description: 'A news app that shows you content from both sides of the political spectrum.'
+    name: newpost
+    description: 'A little CLI that lets you create new GH Pages/Jekyl blog post files with ease.'
     keywords:
       - JavaScript
       - Node.js
-      - React
-      - Redux
-      - News
-    url: 'https://purplepundit.co'
-    roles: 'Full Stack Developer'
-    type: application
+      - npm
+      - CLI
+    url: 'https://www.npmjs.com/package/newpost'
+  -
+    name: resumic
+    description: 'A standardized JSON schema for your resume, with a CLI to generate beautiful resumes from your data.'
+    keywords:
+      - Golang
+      - resume
+      - 'JSON Schema'
+      - CLI
+    url: 'https://github.com/resumic/schema'
   -
     name: jahz.co
     description: 'My personal website and blog.'
@@ -182,30 +177,6 @@ projects:
       - Jekyll
     url: 'https://jahz.co'
     type: website
-  -
-    name: 'CS2110 Final Assignment'
-    description: 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free).'
-    highlights:
-      - 'Perfect Grade!'
-    keywords:
-      - C
-      - 'dynamic memory allocation'
-    type: assignment
-  -
-    name: 'Capstone Project: Production Management Application'
-    description: 'A web app built to track and analyze production statistics for Yokogawa Corporation of America.'
-    keywords:
-      - JavaScript
-      - React
-      - Redux
-      - Azure
-      - 'SQL Server'
-      - 'REST API'
-      - Node.js
-    roles:
-      - 'Full Stack Developer'
-      - 'API Designer'
-    type: assignment
 meta:
   canonical: 'https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json'
   version: v1.0.1
