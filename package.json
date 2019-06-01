@@ -8,6 +8,7 @@
         "jsonresume-theme-stackoverflow2": "^1.0.6"
     },
     "scripts": {
-        "build": "fluentcv build jve-resume.json to out/resume.all -t ./jsonresume-theme-jve"
+        "build": "fluentcv build jve-resume.json to out/resume.all -t ./jsonresume-theme-jve",
+        "serve": "open out/resume.html"
     }
 }
