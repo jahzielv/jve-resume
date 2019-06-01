@@ -11,7 +11,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-06-01T04:49:15.320Z",
+    "modified": "2019-06-01T04:53:57.957Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -40,8 +40,7 @@
         "keywords": [],
         "highlights": [
           "Developed .NET apps for a variety of departments with focus on streamlining and automating existing business processes",
-          "Developed an Android app that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year",
-          "Gave presentations on benefits of software infrastructure and internal development to upper management, including VP of manufacturing"
+          "Developed an Android app that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year"
         ]
       }
     ]
