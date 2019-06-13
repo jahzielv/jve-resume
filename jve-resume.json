@@ -118,13 +118,6 @@
     ],
     "projects": [
         {
-            "name": "CS2110 Final Assignment: C memory library",
-            "description": "Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free).",
-            "highlights": ["Perfect Grade!"],
-            "keywords": ["C", "dynamic memory allocation"],
-            "type": "assignment"
-        },
-        {
             "name": "MDN JS Docs",
             "description": "Documenting recent ECMAScript features on MDN. Tasks include updating compat data, writing interactive examples, and writing entire reference pages with the help of various standards specification documents.",
             "keywords": [
@@ -162,6 +155,13 @@
             "keywords": ["HTML", "CSS", "Vanilla JavaScript", "Jekyll"],
             "url": "https://jahz.co",
             "type": "website"
+        },
+        {
+            "name": "CS2110 Final Assignment: C memory library",
+            "description": "Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free).",
+            "highlights": ["Perfect Grade!"],
+            "keywords": ["C", "dynamic memory allocation"],
+            "type": "assignment"
         }
     ],
     "meta": {
