@@ -9,6 +9,7 @@
     },
     "scripts": {
         "build": "fluentcv build jve-resume.json to out/resume.all -t ./jsonresume-theme-jve",
-        "serve": "open out/resume.html"
+        "serve": "open out/resume.html",
+        "deploy": "cp out/resume.html ~/code/jahz-co/resume.html"
     }
 }

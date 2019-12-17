@@ -2,7 +2,7 @@
   "name": "Jahziel Villasana-Espinoza",
   "info": {
     "label": "Software Engineer, Computer Science Undergrad",
-    "brief": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He has a special affinity for the Web, all things Open Source, Web tooling, and standards maintenance and implementation."
+    "brief": "Jahziel loves programming computers and solving deep technical problems. He has a special affinity for the Web, systems programming, all things Open Source, and standards maintenance and implementation. He also loves building community around software."
   },
   "contact": {
     "email": "jahz@gatech.edu",
@@ -11,7 +11,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-06-13T20:08:13.940Z",
+    "modified": "2019-12-17T02:58:16.759Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -52,12 +52,13 @@
         "institution": "Georgia Institute of Technology",
         "start": "2015-08-20",
         "end": "2020-12-14",
-        "grade": "3.38",
+        "grade": "3.43",
         "curriculum": [
-          "CS1332 - Data Structures and Algorithms",
-          "CS2110 - Computer Organization and Programming: Assembly and C",
+          "CS1332: Data Structures and Algorithms",
+          "CS2110: Computer Organization and Programming: Assembly and C",
           "CS2200: Intro to Systems and Networking",
-          "CS4240 - Compilers and Interpreters",
+          "CS3210: Operating System Design",
+          "CS4240: Compilers and Interpreters",
           "Capstone Project"
         ],
         "summary": "",

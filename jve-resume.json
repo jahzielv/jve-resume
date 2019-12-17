@@ -6,7 +6,7 @@
         "email": "jahz@gatech.edu",
         "phone": "(404)-428-7664",
         "url": "https://jahz.co",
-        "summary": "Jahziel is passionate about making people's lives easier through elegant, well-crafted software. He has a special affinity for the Web, all things Open Source, Web tooling, and standards maintenance and implementation.",
+        "summary": "Jahziel loves programming computers and solving deep technical problems. He has a special affinity for the Web, systems programming, all things Open Source, and standards maintenance and implementation. He also loves building community around software.",
         "location": {
             "address": "4888 Duncan Wood Dr.",
             "postalCode": "30096",
@@ -58,12 +58,13 @@
             "studyType": "B.S",
             "startDate": "2015-08-20",
             "endDate": "2020-12-14",
-            "gpa": "3.38",
+            "gpa": "3.43",
             "courses": [
-                "CS1332 - Data Structures and Algorithms",
-                "CS2110 - Computer Organization and Programming: Assembly and C",
+                "CS1332: Data Structures and Algorithms",
+                "CS2110: Computer Organization and Programming: Assembly and C",
                 "CS2200: Intro to Systems and Networking",
-                "CS4240 - Compilers and Interpreters",
+                "CS3210: Operating System Design",
+                "CS4240: Compilers and Interpreters",
                 "Capstone Project"
             ]
         }
