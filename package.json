@@ -1,5 +1,6 @@
 {
     "dependencies": {
+        "express": "^4.17.1",
         "jsonresume-theme-dark-classy-responsive": "^1.0.3",
         "jsonresume-theme-even": "^0.2.1",
         "jsonresume-theme-moon": "^1.7.22",
@@ -9,7 +10,7 @@
     },
     "scripts": {
         "build": "fluentcv build jve-resume.json to out/resume.all -t ./jsonresume-theme-jve",
-        "serve": "open out/resume.html",
+        "serve": "node server.js",
         "deploy": "cp out/resume.html ~/code/jahz-co/resume.html"
     }
 }

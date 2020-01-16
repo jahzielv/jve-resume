@@ -1,8 +1,7 @@
 {
   "name": "Jahziel Villasana-Espinoza",
   "info": {
-    "label": "Software Engineer, Computer Science Undergrad",
-    "brief": "Jahziel loves programming computers and solving deep technical problems. He has a special affinity for the Web, systems programming, all things Open Source, and standards maintenance and implementation. He also loves building community around software."
+    "brief": "Jahziel loves programming computers. He's especially interested in systems programming, building and specifying the Open Web, and teaching."
   },
   "contact": {
     "email": "jahz@gatech.edu",
@@ -11,7 +10,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-12-17T02:58:16.759Z",
+    "modified": "2020-01-16T19:56:47.732Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -129,24 +128,6 @@
       "network": "Github",
       "url": "https://github.com/jahzielv",
       "user": "jahzielv"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Web Standards",
-      "keywords": [
-        "ECMAScript",
-        "documentation",
-        "implemetation (browsers, engines)"
-      ]
-    },
-    {
-      "name": "Open Source",
-      "keywords": [
-        "maintenance",
-        "culture",
-        "community building"
-      ]
     }
   ],
   "languages": [

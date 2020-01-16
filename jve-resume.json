@@ -1,12 +1,11 @@
 {
     "basics": {
         "name": "Jahziel Villasana-Espinoza",
-        "label": "Software Engineer, Computer Science Undergrad",
         "image": "",
         "email": "jahz@gatech.edu",
         "phone": "(404)-428-7664",
         "url": "https://jahz.co",
-        "summary": "Jahziel loves programming computers and solving deep technical problems. He has a special affinity for the Web, systems programming, all things Open Source, and standards maintenance and implementation. He also loves building community around software.",
+        "summary": "Jahziel loves programming computers. He's especially interested in systems programming, building and specifying the Open Web, and teaching.",
         "location": {
             "address": "4888 Duncan Wood Dr.",
             "postalCode": "30096",
@@ -103,20 +102,7 @@
             "fluency": "Native speaker"
         }
     ],
-    "interests": [
-        {
-            "name": "Web Standards",
-            "keywords": [
-                "ECMAScript",
-                "documentation",
-                "implemetation (browsers, engines)"
-            ]
-        },
-        {
-            "name": "Open Source",
-            "keywords": ["maintenance", "culture", "community building"]
-        }
-    ],
+
     "projects": [
         {
             "name": "MDN JS Docs",
