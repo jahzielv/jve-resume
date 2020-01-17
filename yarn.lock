@@ -590,6 +590,20 @@ jsonresume-theme-moon@^1.7.22:
   resolved "https://registry.yarnpkg.com/jsonresume-theme-moon/-/jsonresume-theme-moon-1.7.22.tgz#55ed524b04faee10711196fdb75611244f31ca94"
   integrity sha1-Ve1SSwT67hBxEZb9t1YRJE8xypQ=
 
+jsonresume-theme-paper@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/jsonresume-theme-paper/-/jsonresume-theme-paper-0.3.5.tgz#05837249f7afef66f8aacce5a1a8917d077ab013"
+  integrity sha1-BYNySfev72b4qszloaiRfQd6sBM=
+  dependencies:
+    handlebars "^2.0.0-alpha.4"
+
+jsonresume-theme-short@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/jsonresume-theme-short/-/jsonresume-theme-short-0.1.7.tgz#fbb914d8b07157a8df4af93e57560af0c5f507a3"
+  integrity sha1-+7kU2LBxV6jfSvk+V1YK8MX1B6M=
+  dependencies:
+    handlebars "^2.0.0-alpha.4"
+
 jsonresume-theme-spartan@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/jsonresume-theme-spartan/-/jsonresume-theme-spartan-0.2.1.tgz#079ea01758be6eb57ff35f06e1f343b7c55f2077"

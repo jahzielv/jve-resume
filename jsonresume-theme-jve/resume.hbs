@@ -28,77 +28,90 @@
 						</div>
 					{{/if}}
 
-					{{#location}}
-						<span class="location">
-							{{#if address}}
-								<span class="address">
+					<div id="contact-info">{{#location}}
+						<div id="address">
+								<div>
 									{{address}},
-								</span>
-							{{/if}}
-							{{#if postalCode}}
-								<span class="postalCode">
-									{{postalCode}},
-								</span>
-							{{/if}}
-							{{#if city}}
-								<span class="city">
-									{{city}},
-								</span>
-							{{/if}}
-							{{#if region}}
-								<span class="region">
-									{{region}}
-								</span>
-							{{/if}}
-							{{#if countryCode}}
-								<span class="countryCode">
-									{{countryCode}}
-								</span>
-							{{/if}}
-						</span>
-					{{/location}}
-                    {{#birthData birth}}{{/birthData}}
-					<div id="contact">
-						{{#if website}}
-						<div class="website">
-              <span class="fa fa-external-link"></span>
-							<a target="_blank" href="{{website}}">{{website}}</a>
-						</div>
-						{{/if}}
-						{{#if email}}
-						<div class="email">
-              <span class="fa fa-envelope-o"></span>
-							<a href="mailto:{{email}}">{{email}}</a>
-						</div>
-						{{/if}}
-						{{#if phone}}
-						<div class="phone">
-              <span class="fa fa-mobile"></span>
-							{{phone}}
-						</div>
-						{{/if}}
-					</div>
-
-					{{#if profiles.length}}
-					<div id="profiles">
-						{{#each profiles}}
-						<div class="item">
-							{{#if network}}
-								<div class="username">
-									<span class="fa fa-{{spaceToDash network}} {{spaceToDash network}} social"></span>
-									{{#if url}}
-									<span class="url">
-										<a href="{{url}}">{{username}}</a>
-									</span>
-									{{else}}
-										<span>{{username}}</span>
-									{{/if}}
 								</div>
-							{{/if}}
+								<div>
+									{{city}}, {{region}}
+								</div>
+								<div>
+									{{postalCode}}
+								</div>
 						</div>
-						{{/each}}
+					{{!-- <span class="location">
+					{{#if address}}
+					<span class="address">
+					{{address}},
+					</span>
+					{{/if}}
+					{{#if postalCode}}
+					<span class="postalCode">
+					{{postalCode}},
+					</span>
+					{{/if}}
+					{{#if city}}
+					<span class="city">
+					{{city}},
+					</span>
+					{{/if}}
+					{{#if region}}
+					<span class="region">
+					{{region}}
+					</span>
+					{{/if}}
+					{{#if countryCode}}
+					<span class="countryCode">
+					{{countryCode}}
+					</span>
+					{{/if}}
+					</span> --}}
+					{{/location}}
+					{{#birthData birth}}{{/birthData}}
+					<div id="contact">
+					{{#if url}}
+					<div class="website">
+					<span class="fa fa-external-link">
+					</span>
+					<a class="url" target="_blank" href="{{url}}">{{url}}</a>
 					</div>
 					{{/if}}
+					{{#if email}}
+					<div class="email">
+					<span class="fa fa-envelope-o"></span>
+					<a href="mailto:{{email}}">{{email}}</a>
+					</div>
+					{{/if}}
+					{{#if phone}}
+					<div class="phone">
+					<span class="fa fa-mobile"></span>
+					{{phone}}
+					</div>
+					{{/if}}
+					</div>
+					
+					{{#if profiles.length}}
+					<div id="profiles">
+					{{#each profiles}}
+					<div class="item">
+					{{#if network}}
+					<div class="username">
+					<span class="fa fa-{{spaceToDash network}} {{spaceToDash network}} social"></span>
+					{{#if url}}
+					<span class="url">
+					<a href="{{url}}">{{username}}</a>
+					</span>
+					{{else}}
+					<span>{{username}}</span>
+					{{/if}}
+					</div>
+					{{/if}}
+					</div>
+					{{/each}}
+					</div>
+					{{/if}}
+					</div>
 				</header>
 
 				{{#if summary}}
@@ -145,7 +158,7 @@
 			{{#if resume.work.length}}
 				<section class="section">
 					<header>
-						<h2 class='section-title'>Work Experience <span class="item-count">({{resume.work.length}})</span></h2>
+						<h2 class='section-title'>Work Experience </h2>
 					</header>
 					<section id="work">
 						{{#each resume.work}}
@@ -347,7 +360,7 @@
 			{{#if resume.education.length}}
 				<section class="section">
 					<header>
-						<h2 class='section-title'>Education <span class="item-count">({{resume.education.length}})</span></h2>
+						<h2 class='section-title'>Education </h2>
 					</header>
 					<section id="education">
 						{{#each resume.education}}

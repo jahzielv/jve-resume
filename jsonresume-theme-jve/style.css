@@ -180,7 +180,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.27rem;
+    font-size: 1.1rem;
 }
 
 em {
@@ -201,6 +201,25 @@ strong {
     margin-top: 2rem;
 }
 
+header#header {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: space-between;
+}
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* max-width: 300px; */
+}
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 /* every section wrapper */
 .section {
     margin-bottom: 1rem;
@@ -212,9 +231,13 @@ section .location {
     font-weight: 700;
 }
 
-#contact {
+/* #contact {
     margin-top: 0.5rem;
-}
+} */
+/* 
+#address {
+    margin-top: 0.5rem;
+} */
 
 #profiles .item {
     padding: 0;
@@ -222,6 +245,7 @@ section .location {
 
 #header > #profiles,
 #header > #contact,
+#header,
 #skills,
 #languages,
 #interests {
@@ -280,7 +304,7 @@ h2.section-title {
     text-transform: uppercase;
     font-weight: 600;
     border: none;
-    font-size: 0.9rem;
+    font-size: 1.15rem;
 }
 
 .section > header {
@@ -347,6 +371,16 @@ h2.section-title {
     font-weight: 600;
 }
 
+.studyType,
+.area,
+span.name {
+    font-size: 1.1rem;
+}
+
+.position {
+    font-size: 1.1rem;
+}
+
 /* .company::before,
 .institution::before,
 .organization::before,
@@ -393,9 +427,9 @@ ul.courses li:hover {
     background: #dfeaf0;
 }
 
-.item {
+/* .item {
     padding: 0.5em 0;
-}
+} */
 
 .gpa {
     padding-bottom: 0.5em;
@@ -480,7 +514,7 @@ ul.courses li:hover {
 #skills .item,
 #interests .item {
     width: 15em;
-    padding: 0 0.5em 0.5em 0;
+    /* padding: 0 0.5em 0.5em 0; */
     border-bottom: none;
 }
 
@@ -579,8 +613,8 @@ ul.courses li:hover {
     }
 
     #resume {
-        width: 820px;
-        margin: 2rem auto;
+        /* width: 820px; */
+        /* margin: 2rem auto; */
         opacity: 0;
         -webkit-transition: opacity 0.5s ease-in-out;
         transition: opacity 0.5s ease-in-out;

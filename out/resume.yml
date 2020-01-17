@@ -1,15 +1,12 @@
 basics:
   name: 'Jahziel Villasana-Espinoza'
-  image: ""
   email: jahz@gatech.edu
   phone: (404)-428-7664
   url: 'https://jahz.co'
-  summary: 'Jahziel loves programming computers. He''s especially interested in systems programming and building and specifying the Open Web.'
   location:
     address: '1090 Atlantic Dr. NW'
     postalCode: '30318'
     city: Atlanta
-    countryCode: US
     region: Georgia
   profiles:
     -
@@ -20,10 +17,6 @@ basics:
       network: Github
       username: jahzielv
       url: 'https://github.com/jahzielv'
-    -
-      network: jahz.co
-      username: jahz.co
-      url: 'https://jahz.co'
 work:
   -
     company: 'State Farm'
@@ -81,7 +74,7 @@ skills:
       - 'C#'
       - Java
   -
-    name: 'The Web!'
+    name: 'Web Dev'
     keywords:
       - Node.js
       - React
@@ -107,17 +100,20 @@ skills:
       - Ubuntu
       - Bash
       - vim
-languages:
   -
-    language: English
-    fluency: 'Native speaker'
+    name: English
+    keywords:
+      - 'Native speaker'
   -
-    language: Spanish
-    fluency: 'Native speaker'
+    name: Spanish
+    keywords:
+      - 'Native speaker'
 projects:
   -
     name: 'ECMA 402 Student Member'
-    description: 'Documenting recent ECMAScript features on Mozilla Developer Network. Tasks include updating browser compatitbility data, writing interactive examples, and writing entire reference pages with the help of various standards specification documents.'
+    highlights:
+      - 'Documenting recent ECMAScript features on Mozilla Developer Network'
+      - 'Writing entire reference pages with the help of various standards specification documents.'
     keywords:
       - JavaScript
       - ECMAScript
@@ -127,9 +123,9 @@ projects:
     url: 'https://developer.mozilla.org/en-US/profiles/jahzielv'
   -
     name: 'C dynamic memory'
-    description: 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free) as part of coursework for CS 2110.'
+    description: ""
     highlights:
-      - 'Perfect Grade!'
+      - 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free) as part of coursework for CS 2110.'
     keywords:
       - C
       - 'systems programming'
@@ -137,40 +133,21 @@ projects:
     type: assignment
   -
     name: 'libc for xv6'
-    description: 'Implemented a small libc for xv6, the teaching operating system used in CS 3210: buffered I/O, signals, setjmp, variable argument support, as well as supporting system calls.'
+    description: ""
+    highlights:
+      - 'Implemented a small libc for xv6, the teaching operating system used in CS 3210'
+      - 'Buffered I/O, signals, setjmp, variable argument support, as well as supporting system calls.'
     keywords:
       - C
       - 'systems programming'
       - assembly
       - OS
   -
-    name: Ankiport
-    description: 'A web app that converts Quizlets to Anki decks.'
-    keywords:
-      - JavaScript
-      - React
-      - Flask
-    url: 'https://www.ankiport.com'
-    roles:
-      - 'Full Stack Developer'
-    type: application
-  -
-    name: newpost
-    description: 'A little CLI that lets you create new GH Pages/Jekyl blog post files with ease.'
-    keywords:
-      - JavaScript
-      - Node.js
-      - npm
-      - CLI
-    url: 'https://www.npmjs.com/package/newpost'
-  -
-    name: resumic
-    description: 'A standardized JSON schema for your resume, with a CLI to generate beautiful resumes from your data.'
-    keywords:
-      - Go
-      - 'JSON Schema'
-      - CLI
-    url: 'https://github.com/resumic/schema'
+    name: 'Assorted apps'
+    highlights:
+      - 'newpost: A little CLI that lets you create new GH Pages/Jekyl blog post files with ease.'
+      - 'resumic: A standardized JSON schema for your resume, with a CLI to generate beautiful resumes from your data.'
+      - 'Ankiport: A web app that converts Quizlets to Anki decks.'
 meta:
   canonical: 'https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json'
   version: v1.0.1
