@@ -41,6 +41,9 @@
 					<a href="{{website}}">{{website}}</a>
 				</span>
 				{{/if}}
+				{{#if location}}
+					{{location.address}} {{location.city}}, {{location.region}} {{location.postalCode}}
+				{{/if}}
 			</div>
 		</header>
 
@@ -110,6 +113,11 @@
 					GPA: {{gpa}}
 				</span>
 				{{/if}}
+			</div>
+			<div class="courses">
+				{{#each courses}}
+					<p>{{.}}{{#if @last}}{{else}},{{/if}}</p>
+				{{/each}}
 			</div>
 
 		</div>

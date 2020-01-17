@@ -3,19 +3,20 @@
   "info": {},
   "contact": {
     "email": "jahz@gatech.edu",
-    "phone": "(404)-428-7664"
+    "phone": "(404)-428-7664",
+    "website": "https://jahz.co"
   },
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-01-17T05:08:39.073Z",
+    "modified": "2020-01-17T05:49:23.731Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
     "city": "Atlanta",
     "region": "Georgia",
     "code": "30318",
-    "address": "1090 Atlantic Dr. NW"
+    "address": "1090 Atlantic Dr."
   },
   "employment": {
     "history": [
@@ -26,8 +27,8 @@
         "start": "2019-05-13",
         "keywords": [],
         "highlights": [
-          "Transitioned key parts of State Farm's internal claims microservice and API infrastructure from on-prem to AWS",
-          "Managed a team of fellow interns in building and deploying a SPA for internal use"
+          "Transitioned key parts of State Farm's internal claims microservice and API infrastructure from on-prem to AWS.",
+          "Managed a team of fellow interns in building and deploying a SPA for internal use."
         ]
       },
       {
@@ -38,7 +39,7 @@
         "keywords": [],
         "highlights": [
           "Developed a custom tool to streamline Quality Assurance documentation processes",
-          "Created an Android app that optimized customer plant tours, leading to savings of over $5,000 per year"
+          "Created an Android app that optimized customer plant tours, leading to savings of over $5,000 per year."
         ]
       }
     ]
@@ -47,17 +48,12 @@
     "level": "",
     "history": [
       {
-        "institution": "Georgia Institute of Technology",
-        "start": "2015-08-20",
-        "end": "2020-12-14",
+        "institution": "Georgia Institute of Technology, December 2020",
         "grade": "3.43",
         "curriculum": [
-          "CS1332: Data Structures and Algorithms",
-          "CS2110: Computer Organization and Programming: Assembly and C",
-          "CS2200: Intro to Systems and Networking",
-          "CS3210: Operating System Design",
-          "CS4240: Compilers and Interpreters",
-          "Capstone Project"
+          "CS1332: Data Structures and Algorithms, CS2110: Computer Organization and Programming (Assembly and C)",
+          "CS2200: Intro to Systems and Networking, CS3210: Operating System Design",
+          "CS4240: Compilers and Interpreters, CS4210: Advanced Operating System Design"
         ],
         "summary": "",
         "area": "Computer Science",
@@ -129,12 +125,6 @@
     ]
   },
   "social": [
-    {
-      "label": "Twitter",
-      "network": "Twitter",
-      "url": "https://twitter.com/jahz_v",
-      "user": "jahz_v"
-    },
     {
       "label": "Github",
       "network": "Github",
