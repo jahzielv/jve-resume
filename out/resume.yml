@@ -6,9 +6,9 @@ basics:
   url: 'https://jahz.co'
   summary: 'Jahziel loves programming computers. He''s especially interested in systems programming, building and specifying the Open Web, and teaching.'
   location:
-    address: '4888 Duncan Wood Dr.'
-    postalCode: '30096'
-    city: Duluth
+    address: '1090 Atlantic Dr. NW'
+    postalCode: '30318'
+    city: Atlanta
     countryCode: US
     region: Georgia
   profiles:
@@ -20,31 +20,40 @@ basics:
       network: Github
       username: jahzielv
       url: 'https://github.com/jahzielv'
+    -
+      network: jahz.co
+      username: jahz.co
+      url: 'https://jahz.co'
 work:
   -
     company: 'State Farm'
-    location:
-      city: Atlanta
-      countryCode: US
-      region: Georgia
     position: 'Software Engineering Intern'
     startDate: '2019-05-13'
-    summary: 'Joined a small Enterprise Technology team that maintains several microservices and APIs for the Claims side of State Farm''s business, using Spring, Node.js, and AWS.'
+    highlights:
+      - 'Transitioned key parts of State Farm''s internal claims microservice and API infrastructure from on-prem to AWS'
+      - 'Managed a team of fellow interns in building and deploying a SPA for internal use'
+    keywords:
+      - Node.js
+      - AWS
+      - CD/CI
+      - React
+      - DevOps
+      - JavaScript
   -
     company: 'Yokogawa Corp. of America'
-    location:
-      city: Newnan
-      countryCode: US
-      region: Georgia
     description: 'Manufacturing Company'
     position: 'Co-op Engineer'
     url: 'https://yokogawa.com/us'
     startDate: '2017-08-20'
     endDate: '2019-05-03'
-    summary: ""
     highlights:
-      - 'Developed .NET apps for a variety of departments with focus on streamlining and automating existing business processes'
-      - 'Developed an Android app that streamlines plant tours, with estimated savings in engineering time of more than $10,000 per year'
+      - 'Developed a custom tool to streamline Quality Assurance documentation processes'
+      - 'Created an Android app that optimized customer plant tours, leading to savings of over $5,000 per year'
+    keywords:
+      - .NET
+      - 'C#'
+      - Android
+      - Windows
 education:
   -
     institution: 'Georgia Institute of Technology'
