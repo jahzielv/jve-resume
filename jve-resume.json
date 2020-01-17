@@ -27,7 +27,7 @@
             "startDate": "2017-08-20",
             "endDate": "2019-05-03",
             "highlights": [
-                "Developed a custom tool to streamline Quality Assurance documentation processes",
+                "Developed a custom tool to streamline Quality Assurance documentation processes.",
                 "Created an Android app that optimized customer plant tours, leading to savings of over $5,000 per year."
             ],
             "keywords": [".NET", "C#", "Android", "Windows"]
@@ -38,7 +38,8 @@
             "startDate": "2019-05-13",
             "highlights": [
                 "Transitioned key parts of State Farm's internal claims microservice and API infrastructure from on-prem to AWS.",
-                "Managed a team of fellow interns in building and deploying a SPA for internal use."
+                "Gained project management experience by leading a team of fellow interns in building and deploying a SPA for internal use.",
+                "Taught workshop on Go to full-time members of dev team."
             ],
             "keywords": ["Node.js", "AWS", "CD/CI", "React", "DevOps", "JavaScript"]
         }
@@ -95,7 +96,7 @@
             "name": "ECMA 402 Student Member",
             "highlights": [
                 "Documented recent ECMAScript features on Mozilla Developer Network as part of the ECMA 402 standardization process.",
-                "Wrote entire reference pages with the help of various standards specification documents."
+                "Wrote over 10 entire reference pages with the help of various standards specification documents."
             ],
             "keywords": [
                 "JavaScript",

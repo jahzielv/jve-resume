@@ -9,7 +9,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-01-17T05:49:23.731Z",
+    "modified": "2020-01-17T16:59:51.520Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -28,7 +28,8 @@
         "keywords": [],
         "highlights": [
           "Transitioned key parts of State Farm's internal claims microservice and API infrastructure from on-prem to AWS.",
-          "Managed a team of fellow interns in building and deploying a SPA for internal use."
+          "Gained project management experience by leading a team of fellow interns in building and deploying a SPA for internal use.",
+          "Taught workshop on Go to full-time members of dev team."
         ]
       },
       {
@@ -38,7 +39,7 @@
         "end": "2019-05-03",
         "keywords": [],
         "highlights": [
-          "Developed a custom tool to streamline Quality Assurance documentation processes",
+          "Developed a custom tool to streamline Quality Assurance documentation processes.",
           "Created an Android app that optimized customer plant tours, leading to savings of over $5,000 per year."
         ]
       }

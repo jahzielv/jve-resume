@@ -57,7 +57,7 @@
 			<div class="profile">
 				{{#if network}}
 				<strong class="network">
-					{{network}}
+					{{network}}:
 				</strong>
 				{{/if}}
 				{{#if username}}
