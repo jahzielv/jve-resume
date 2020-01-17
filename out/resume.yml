@@ -4,7 +4,7 @@ basics:
   email: jahz@gatech.edu
   phone: (404)-428-7664
   url: 'https://jahz.co'
-  summary: 'Jahziel loves programming computers. He''s especially interested in systems programming, building and specifying the Open Web, and teaching.'
+  summary: 'Jahziel loves programming computers. He''s especially interested in systems programming and building and specifying the Open Web.'
   location:
     address: '1090 Atlantic Dr. NW'
     postalCode: '30318'
@@ -73,9 +73,10 @@ skills:
   -
     name: 'Programming Languages'
     keywords:
-      - JavaScript
-      - Go
       - C
+      - Go
+      - JavaScript
+      - Rust
       - Python
       - 'C#'
       - Java
@@ -115,8 +116,8 @@ languages:
     fluency: 'Native speaker'
 projects:
   -
-    name: 'MDN JS Docs'
-    description: 'Documenting recent ECMAScript features on MDN. Tasks include updating compat data, writing interactive examples, and writing entire reference pages with the help of various standards specification documents.'
+    name: 'ECMA 402 Student Member'
+    description: 'Documenting recent ECMAScript features on Mozilla Developer Network. Tasks include updating browser compatitbility data, writing interactive examples, and writing entire reference pages with the help of various standards specification documents.'
     keywords:
       - JavaScript
       - ECMAScript
@@ -124,6 +125,24 @@ projects:
       - documentation
       - standards
     url: 'https://developer.mozilla.org/en-US/profiles/jahzielv'
+  -
+    name: 'C dynamic memory'
+    description: 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free) as part of coursework for CS 2110.'
+    highlights:
+      - 'Perfect Grade!'
+    keywords:
+      - C
+      - 'systems programming'
+      - 'dynamic memory allocation'
+    type: assignment
+  -
+    name: 'libc for xv6'
+    description: 'Implemented a small libc for xv6, the teaching operating system used in CS 3210: buffered I/O, signals, setjmp, variable argument support, as well as supporting system calls.'
+    keywords:
+      - C
+      - 'systems programming'
+      - assembly
+      - OS
   -
     name: Ankiport
     description: 'A web app that converts Quizlets to Anki decks.'
@@ -148,30 +167,10 @@ projects:
     name: resumic
     description: 'A standardized JSON schema for your resume, with a CLI to generate beautiful resumes from your data.'
     keywords:
-      - Golang
-      - resume
+      - Go
       - 'JSON Schema'
       - CLI
     url: 'https://github.com/resumic/schema'
-  -
-    name: jahz.co
-    description: 'My personal website and blog.'
-    keywords:
-      - HTML
-      - CSS
-      - 'Vanilla JavaScript'
-      - Jekyll
-    url: 'https://jahz.co'
-    type: website
-  -
-    name: 'CS2110 Final Assignment: C memory library'
-    description: 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free).'
-    highlights:
-      - 'Perfect Grade!'
-    keywords:
-      - C
-      - 'dynamic memory allocation'
-    type: assignment
 meta:
   canonical: 'https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json'
   version: v1.0.1

@@ -377,18 +377,10 @@
 									{{/if}}
 								</div>
 								<div class="date">
-									{{#if startDate}}
-									<span class="startDate">
-										{{Y startDate}}
-									</span>
-									{{/if}}
+
 									{{#if endDate}}
 									<span class="endDate">
-										- {{Y endDate}}
-									</span>
-									{{else}}
-									<span class="endDate">
-										- Current
+										Graduating {{MY endDate}}
 									</span>
 									{{/if}}
 								</div>
@@ -486,23 +478,29 @@
                           <span class="fa fa-caret-right"></span>
                           {{/if}}
                       </span>
-                      <div class="header-left">
-
-												{{#if url}}
-
-													{{#if name}}
-														<span class="name">
-															<a href="{{url}}">{{name}}</a>
-														</span>
-													{{/if}}
-												{{else}}
-														{{#if name}}
-															<span class="name">
-																{{name}}
-															</span>
-														{{/if}}
+                      {{!-- <div class="header-left">
+						{{#if url}}
+							{{#if name}}
+								<span class="name">
+									{{name}} <a href="{{url}}">{{url}}</a>
+								</span>
+							{{/if}}
+						{{else}}
+							{{#if name}}
+								<span class="name">
+									{{name}}
+								</span>
+							{{/if}}
                         {{/if}}
+                    </div> --}}
+                      <div class="header-left">
+						{{#if name}}
+							<span class="name">
+								{{name}}
+							</span>
+						{{/if}}
                     </div>
+
                     {{#if releaseDate}}
                       <span class="date">
                           {{DMY releaseDate}}
@@ -517,6 +515,12 @@
 								{{#if description}}
 									<div class="summary">
 										<p>{{paragraphSplit description}}</p>
+										<p>
+											{{#if url}}
+												<a href="{{url}}">{{url}}</a>
+											{{/if}}
+										</p>
+
 									</div>
 								{{/if}}
 

@@ -1,7 +1,7 @@
 {
   "name": "Jahziel Villasana-Espinoza",
   "info": {
-    "brief": "Jahziel loves programming computers. He's especially interested in systems programming, building and specifying the Open Web, and teaching."
+    "brief": "Jahziel loves programming computers. He's especially interested in systems programming and building and specifying the Open Web."
   },
   "contact": {
     "email": "jahz@gatech.edu",
@@ -10,7 +10,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-01-17T01:32:46.349Z",
+    "modified": "2020-01-17T02:26:06.325Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -73,9 +73,10 @@
       {
         "name": "Programming Languages",
         "skills": [
-          "JavaScript",
-          "Go",
           "C",
+          "Go",
+          "JavaScript",
+          "Rust",
           "Python",
           "C#",
           "Java"
