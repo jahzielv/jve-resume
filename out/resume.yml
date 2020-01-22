@@ -102,10 +102,10 @@ skills:
       - 'Native speaker'
 projects:
   -
-    name: 'ECMA 402 Student Member'
+    name: 'ECMA-402 Task Group Member'
     highlights:
-      - 'Documented recent ECMAScript features on Mozilla Developer Network as part of the ECMA 402 standardization process.'
-      - 'Wrote over 10 entire reference pages with the help of various standards specification documents.'
+      - 'Documented recent ECMAScript internationalization features on Mozilla Developer Network.'
+      - 'Worked on a distributed team to make decisions on future internationalization features in the ECMAScript spec.'
     keywords:
       - JavaScript
       - ECMAScript
@@ -113,16 +113,6 @@ projects:
       - documentation
       - standards
     url: 'https://developer.mozilla.org/en-US/profiles/jahzielv'
-  -
-    name: 'C dynamic memory'
-    description: ""
-    highlights:
-      - 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free) as part of coursework for CS 2110.'
-    keywords:
-      - C
-      - 'systems programming'
-      - 'dynamic memory allocation'
-    type: assignment
   -
     name: 'libc for xv6'
     description: ""
@@ -134,6 +124,16 @@ projects:
       - 'systems programming'
       - assembly
       - OS
+  -
+    name: 'C dynamic memory'
+    description: ""
+    highlights:
+      - 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free) as part of coursework for CS 2110.'
+    keywords:
+      - C
+      - 'systems programming'
+      - 'dynamic memory allocation'
+    type: assignment
   -
     name: 'Assorted apps'
     highlights:
