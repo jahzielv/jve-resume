@@ -9,7 +9,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-01-22T16:38:35.343Z",
+    "modified": "2020-01-24T17:59:07.880Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -89,10 +89,12 @@
         ]
       },
       {
-        "name": "Source Control",
+        "name": "Tools",
         "skills": [
           "Git",
-          "GitHub"
+          "GitHub",
+          "gdb",
+          "valgrind"
         ]
       },
       {
@@ -112,13 +114,7 @@
         ]
       },
       {
-        "name": "English",
-        "skills": [
-          "Native speaker"
-        ]
-      },
-      {
-        "name": "Spanish",
+        "name": "English, Spanish",
         "skills": [
           "Native speaker"
         ]

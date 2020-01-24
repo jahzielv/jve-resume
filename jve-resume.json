@@ -69,8 +69,8 @@
         },
 
         {
-            "name": "Source Control",
-            "keywords": ["Git", "GitHub"]
+            "name": "Tools",
+            "keywords": ["Git", "GitHub", "gdb", "valgrind"]
         },
 
         {
@@ -82,11 +82,7 @@
             "keywords": ["Ubuntu", "Bash", "vim"]
         },
         {
-            "name": "English",
-            "keywords": ["Native speaker"]
-        },
-        {
-            "name": "Spanish",
+            "name": "English, Spanish",
             "keywords": ["Native speaker"]
         }
     ],

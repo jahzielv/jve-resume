@@ -76,10 +76,12 @@ skills:
       - HTML
       - CSS
   -
-    name: 'Source Control'
+    name: Tools
     keywords:
       - Git
       - GitHub
+      - gdb
+      - valgrind
   -
     name: Databases
     keywords:
@@ -93,11 +95,7 @@ skills:
       - Bash
       - vim
   -
-    name: English
-    keywords:
-      - 'Native speaker'
-  -
-    name: Spanish
+    name: 'English, Spanish'
     keywords:
       - 'Native speaker'
 projects:
