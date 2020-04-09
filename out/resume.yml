@@ -83,11 +83,17 @@ skills:
       - gdb
       - valgrind
   -
-    name: Databases
+    name: 'Cloud and Deployment'
     keywords:
-      - SQLite
-      - 'SQL Server'
-      - DynamoDB
+      - AWS
+      - GCP
+      - PCF
+      - DevOps
+      - Jenkins
+      - TravisCI
+      - Splunk
+      - gRPC
+      - 'REST APIs'
   -
     name: Linux/Unix
     keywords:

@@ -9,7 +9,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-01-24T17:59:07.880Z",
+    "modified": "2020-04-09T03:42:41.866Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -98,11 +98,17 @@
         ]
       },
       {
-        "name": "Databases",
+        "name": "Cloud and Deployment",
         "skills": [
-          "SQLite",
-          "SQL Server",
-          "DynamoDB"
+          "AWS",
+          "GCP",
+          "PCF",
+          "DevOps",
+          "Jenkins",
+          "TravisCI",
+          "Splunk",
+          "gRPC",
+          "REST APIs"
         ]
       },
       {

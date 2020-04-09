@@ -74,8 +74,18 @@
         },
 
         {
-            "name": "Databases",
-            "keywords": ["SQLite", "SQL Server", "DynamoDB"]
+            "name": "Cloud and Deployment",
+            "keywords": [
+                "AWS",
+                "GCP",
+                "PCF",
+                "DevOps",
+                "Jenkins",
+                "TravisCI",
+                "Splunk",
+                "gRPC",
+                "REST APIs"
+            ]
         },
         {
             "name": "Linux/Unix",
