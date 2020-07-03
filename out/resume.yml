@@ -15,9 +15,17 @@ basics:
       url: 'https://github.com/jahzielv'
 work:
   -
+    company: Scholars
+    position: 'Software Development Contractor'
+    startDate: '2020-06-01'
+    endDate: ""
+    highlights:
+      - 'Building out features for Scholars'' Web app. React, Redux, Hooks, Firebase.'
+  -
     company: 'State Farm'
     position: 'Software Engineering Intern'
     startDate: '2019-05-13'
+    endDate: '2020-04-24'
     highlights:
       - 'Transitioned key parts of State Farm''s internal claims microservice and API infrastructure from on-prem to AWS.'
       - 'Gained project management experience by leading a team of fellow interns in building and deploying a SPA for internal use.'
@@ -29,31 +37,19 @@ work:
       - React
       - DevOps
       - JavaScript
-  -
-    company: 'Yokogawa Corp. of America'
-    description: 'Manufacturing Company'
-    position: 'Co-op Engineer'
-    url: 'https://yokogawa.com/us'
-    startDate: '2017-08-20'
-    endDate: '2019-05-03'
-    highlights:
-      - 'Developed a custom tool to streamline Quality Assurance documentation processes.'
-      - 'Created an Android app that optimized customer plant tours, leading to savings of over $5,000 per year.'
-    keywords:
-      - .NET
-      - 'C#'
-      - Android
-      - Windows
 education:
   -
     institution: 'Georgia Institute of Technology, December 2020'
     area: 'Computer Science'
     studyType: B.S
-    gpa: '3.43'
+    gpa: '3.41'
     courses:
-      - 'CS1332: Data Structures and Algorithms, CS2110: Computer Organization and Programming (Assembly and C)'
-      - 'CS2200: Intro to Systems and Networking, CS3210: Operating System Design'
-      - 'CS4240: Compilers and Interpreters, CS4210: Advanced Operating System Design'
+      - 'CS1332: Data Structures and Algorithms'
+      - 'CS2110: Computer Organization and Programming (Assembly and C)'
+      - 'CS2200: Intro to Systems and Networking'
+      - 'CS3210: Operating System Design'
+      - 'CS4240: Compilers and Interpreters'
+      - 'CS4210: Advanced Operating System Design'
 skills:
   -
     name: 'Programming Languages'
@@ -141,8 +137,8 @@ projects:
   -
     name: 'Assorted apps'
     highlights:
+      - 'Hemingway: An economical RSS reader for your terminal. Built with Rust.'
       - 'newpost: A little CLI that lets you create new GH Pages/Jekyl blog post files with ease. Built with Node.js.'
-      - 'resumic: A resume JSON schema, with a CLI to generate beautiful HTML and PDF resumes from your data. Built with Go.'
       - 'ankiport.com: A web app that converts Quizlets to Anki decks. Built with React and Flask.'
       - 'deadbeef.app: Convert from decimal to hex to octal to binary, instantly. Built with React.'
 meta:

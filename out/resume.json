@@ -9,7 +9,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-04-09T03:42:41.866Z",
+    "modified": "2020-07-02T23:43:25.439Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "location": {
@@ -21,26 +21,26 @@
   "employment": {
     "history": [
       {
+        "position": "Software Development Contractor",
+        "employer": "Scholars",
+        "current": true,
+        "start": "2020-06-01",
+        "end": "",
+        "keywords": [],
+        "highlights": [
+          "Building out features for Scholars' Web app. React, Redux, Hooks, Firebase."
+        ]
+      },
+      {
         "position": "Software Engineering Intern",
         "employer": "State Farm",
-        "current": true,
         "start": "2019-05-13",
+        "end": "2020-04-24",
         "keywords": [],
         "highlights": [
           "Transitioned key parts of State Farm's internal claims microservice and API infrastructure from on-prem to AWS.",
           "Gained project management experience by leading a team of fellow interns in building and deploying a SPA for internal use.",
           "Taught workshop on Go to full-time members of dev team."
-        ]
-      },
-      {
-        "position": "Co-op Engineer",
-        "employer": "Yokogawa Corp. of America",
-        "start": "2017-08-20",
-        "end": "2019-05-03",
-        "keywords": [],
-        "highlights": [
-          "Developed a custom tool to streamline Quality Assurance documentation processes.",
-          "Created an Android app that optimized customer plant tours, leading to savings of over $5,000 per year."
         ]
       }
     ]
@@ -50,11 +50,14 @@
     "history": [
       {
         "institution": "Georgia Institute of Technology, December 2020",
-        "grade": "3.43",
+        "grade": "3.41",
         "curriculum": [
-          "CS1332: Data Structures and Algorithms, CS2110: Computer Organization and Programming (Assembly and C)",
-          "CS2200: Intro to Systems and Networking, CS3210: Operating System Design",
-          "CS4240: Compilers and Interpreters, CS4210: Advanced Operating System Design"
+          "CS1332: Data Structures and Algorithms",
+          "CS2110: Computer Organization and Programming (Assembly and C)",
+          "CS2200: Intro to Systems and Networking",
+          "CS3210: Operating System Design",
+          "CS4240: Compilers and Interpreters",
+          "CS4210: Advanced Operating System Design"
         ],
         "summary": "",
         "area": "Computer Science",
