@@ -2,21 +2,15 @@
   "name": "Jahziel Villasana-Espinoza",
   "info": {},
   "contact": {
-    "email": "jahz@gatech.edu",
+    "email": "jve@jahz.co",
     "phone": "(404)-428-7664",
     "website": "https://jahz.co"
   },
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-07-02T23:43:25.439Z",
+    "modified": "2020-07-16T00:13:14.300Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
-  },
-  "location": {
-    "city": "Atlanta",
-    "region": "Georgia",
-    "code": "30318",
-    "address": "1090 Atlantic Dr."
   },
   "employment": {
     "history": [

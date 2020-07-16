@@ -1,15 +1,9 @@
 {
     "basics": {
         "name": "Jahziel Villasana-Espinoza",
-        "email": "jahz@gatech.edu",
+        "email": "jve@jahz.co",
         "phone": "(404)-428-7664",
         "website": "https://jahz.co",
-        "location": {
-            "address": "1090 Atlantic Dr.",
-            "postalCode": "30318",
-            "city": "Atlanta",
-            "region": "Georgia"
-        },
         "profiles": [
             {
                 "network": "Github",
@@ -138,7 +132,6 @@
             "highlights": [
                 "Hemingway: An economical RSS reader for your terminal. Built with Rust.",
                 "newpost: A little CLI that lets you create new GH Pages/Jekyl blog post files with ease. Built with Node.js.",
-                "ankiport.com: A web app that converts Quizlets to Anki decks. Built with React and Flask.",
                 "deadbeef.app: Convert from decimal to hex to octal to binary, instantly. Built with React."
             ]
         }
