@@ -55,12 +55,13 @@
     "skills": [
         {
             "name": "Programming Languages",
-            "keywords": ["C", "Go", "JavaScript", "Rust", "Python", "C#", "Java"]
+            "keywords": ["C", "Go", "JavaScript", "Rust", "TypeScript" , "Python", "C#", "Java"]
         },
         {
             "name": "Web Dev",
             "keywords": ["Node.js", "React", "Redux", "Jekyll", "Flask", "HTML", "CSS"]
         },
+        {"name": "Mobile", "keywords": ["React Native", "Expo", "Android"]},
 
         {
             "name": "Tools",
@@ -83,7 +84,7 @@
         },
         {
             "name": "Linux/Unix",
-            "keywords": ["Ubuntu", "Bash", "vim"]
+            "keywords": ["Ubuntu", "shell", "vim"]
         },
         {
             "name": "English, Spanish",

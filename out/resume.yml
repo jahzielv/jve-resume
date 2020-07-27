@@ -53,6 +53,7 @@ skills:
       - Go
       - JavaScript
       - Rust
+      - TypeScript
       - Python
       - 'C#'
       - Java
@@ -66,6 +67,12 @@ skills:
       - Flask
       - HTML
       - CSS
+  -
+    name: Mobile
+    keywords:
+      - 'React Native'
+      - Expo
+      - Android
   -
     name: Tools
     keywords:
@@ -89,7 +96,7 @@ skills:
     name: Linux/Unix
     keywords:
       - Ubuntu
-      - Bash
+      - shell
       - vim
   -
     name: 'English, Spanish'
@@ -132,7 +139,7 @@ projects:
   -
     name: 'Assorted apps'
     highlights:
-      - '<em>Hemingway</em>: An economical RSS reader for your terminal. Built with Rust.'
+      - 'Hemingway: An economical RSS reader for your terminal. Built with Rust.'
       - 'newpost: A little CLI that lets you create new GH Pages/Jekyl blog post files with ease. Built with Node.js.'
       - 'deadbeef.app: Convert from decimal to hex to octal to binary, instantly. Built with React.'
 meta:
