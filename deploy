@@ -1,0 +1,5 @@
+!#/bin/sh
+cd ~/jahz-co
+git add .
+git commit -m "resume update"
+git push origin master 

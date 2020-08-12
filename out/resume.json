@@ -9,7 +9,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-07-27T22:05:22.378Z",
+    "modified": "2020-08-12T17:30:49.821Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "employment": {
@@ -44,7 +44,7 @@
     "history": [
       {
         "institution": "Georgia Institute of Technology, December 2020",
-        "grade": "3.41",
+        "grade": "3.42",
         "curriculum": [
           "CS1332: Data Structures and Algorithms",
           "CS2110: Computer Organization and Programming (Assembly and C)",
