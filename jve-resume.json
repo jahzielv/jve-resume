@@ -14,12 +14,12 @@
     },
     "work": [
         {
-            "company": "Scholars",
-            "position": "Software Development Contractor",
+            "company": "Signal Eleven",
+            "position": "Co-founder",
             "startDate": "2020-06-01",
             "endDate": "",
             "highlights": [
-                "Building out features for Scholars' Web app. React, Redux, Hooks, Firebase."
+                "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz"
             ]
         },
         {
@@ -33,6 +33,16 @@
                 "Taught workshop on Go to full-time members of dev team."
             ],
             "keywords": ["Node.js", "AWS", "CD/CI", "React", "DevOps", "JavaScript"]
+        },
+        {
+            "company": "Yokogawa Corp. of America",
+            "position": "Software Engineering Co-op",
+            "startDate": "2017-08-18",
+            "endDate": "2019-05-05",
+            "highlights": [
+                "Designed an Android app that saved over $5000 per year in engineering time.",
+                "Created a Windows desktop app to significantly speed up QA engineers' paperwork processing times."
+            ]
         }
     ],
 
@@ -42,26 +52,28 @@
             "area": "Computer Science",
             "studyType": "B.S",
             "gpa": "3.42",
-            "courses": [
-                "CS1332: Data Structures and Algorithms",
-                "CS2110: Computer Organization and Programming (Assembly and C)",
-                "CS2200: Intro to Systems and Networking",
-                "CS3210: Operating System Design",
-                "CS4240: Compilers and Interpreters",
-                "CS4210: Advanced Operating System Design"
-            ]
+            "courses": ["Specializations (Threads): Systems & Architecture and People"]
         }
     ],
     "skills": [
         {
             "name": "Programming Languages",
-            "keywords": ["C", "Go", "JavaScript", "Rust", "TypeScript" , "Python", "C#", "Java"]
+            "keywords": [
+                "C",
+                "Go",
+                "JavaScript",
+                "Rust",
+                "TypeScript",
+                "Python",
+                "C#",
+                "Java"
+            ]
         },
         {
             "name": "Web Dev",
             "keywords": ["Node.js", "React", "Redux", "Jekyll", "Flask", "HTML", "CSS"]
         },
-        {"name": "Mobile", "keywords": ["React Native", "Expo", "Android"]},
+        { "name": "Mobile", "keywords": ["React Native", "Expo", "Android"] },
 
         {
             "name": "Tools",
@@ -85,10 +97,6 @@
         {
             "name": "Linux/Unix",
             "keywords": ["Ubuntu", "shell", "vim"]
-        },
-        {
-            "name": "English, Spanish",
-            "keywords": ["Native speaker"]
         }
     ],
 
@@ -111,21 +119,12 @@
 
         {
             "name": "libc for xv6",
-            "description": "",
+            "description": "hello darkness my old friend",
             "highlights": [
                 "Implemented a small libc for xv6, the teaching operating system used in CS 3210.",
                 "Buffered I/O, signals, setjmp, variable argument support and more, as well as supporting system calls."
             ],
             "keywords": ["C", "systems programming", "assembly", "OS"]
-        },
-        {
-            "name": "C dynamic memory",
-            "description": "",
-            "highlights": [
-                "Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free) as part of coursework for CS 2110."
-            ],
-            "keywords": ["C", "systems programming", "dynamic memory allocation"],
-            "type": "assignment"
         },
 
         {

@@ -10,12 +10,12 @@ basics:
       url: 'https://github.com/jahzielv'
 work:
   -
-    company: Scholars
-    position: 'Software Development Contractor'
+    company: 'Signal Eleven'
+    position: Co-founder
     startDate: '2020-06-01'
     endDate: ""
     highlights:
-      - 'Building out features for Scholars'' Web app. React, Redux, Hooks, Firebase.'
+      - 'Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz'
   -
     company: 'State Farm'
     position: 'Software Engineering Intern'
@@ -32,6 +32,14 @@ work:
       - React
       - DevOps
       - JavaScript
+  -
+    company: 'Yokogawa Corp. of America'
+    position: 'Software Engineering Co-op'
+    startDate: '2017-08-18'
+    endDate: '2019-05-05'
+    highlights:
+      - 'Designed an Android app that saved over $5000 per year in engineering time.'
+      - 'Created a Windows desktop app to significantly speed up QA engineers'' paperwork processing times.'
 education:
   -
     institution: 'Georgia Institute of Technology, December 2020'
@@ -39,12 +47,7 @@ education:
     studyType: B.S
     gpa: '3.42'
     courses:
-      - 'CS1332: Data Structures and Algorithms'
-      - 'CS2110: Computer Organization and Programming (Assembly and C)'
-      - 'CS2200: Intro to Systems and Networking'
-      - 'CS3210: Operating System Design'
-      - 'CS4240: Compilers and Interpreters'
-      - 'CS4210: Advanced Operating System Design'
+      - 'Specializations (Threads): Systems & Architecture and People'
 skills:
   -
     name: 'Programming Languages'
@@ -98,10 +101,6 @@ skills:
       - Ubuntu
       - shell
       - vim
-  -
-    name: 'English, Spanish'
-    keywords:
-      - 'Native speaker'
 projects:
   -
     name: 'ECMA-402 Task Group Member'
@@ -117,7 +116,7 @@ projects:
     url: 'https://developer.mozilla.org/en-US/profiles/jahzielv'
   -
     name: 'libc for xv6'
-    description: ""
+    description: 'hello darkness my old friend'
     highlights:
       - 'Implemented a small libc for xv6, the teaching operating system used in CS 3210.'
       - 'Buffered I/O, signals, setjmp, variable argument support and more, as well as supporting system calls.'
@@ -126,16 +125,6 @@ projects:
       - 'systems programming'
       - assembly
       - OS
-  -
-    name: 'C dynamic memory'
-    description: ""
-    highlights:
-      - 'Implemented the C dynamic memory allocation library (malloc, calloc, realloc, free) as part of coursework for CS 2110.'
-    keywords:
-      - C
-      - 'systems programming'
-      - 'dynamic memory allocation'
-    type: assignment
   -
     name: 'Assorted apps'
     highlights:

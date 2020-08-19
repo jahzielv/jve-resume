@@ -1,5 +1,5 @@
-!#/bin/sh
-cd ~/jahz-co
+#!/bin/sh
+cd ~/code/jahz-co
 git add .
 git commit -m "resume update"
 git push origin master 

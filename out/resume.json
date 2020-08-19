@@ -9,20 +9,20 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-08-12T17:30:49.821Z",
+    "modified": "2020-08-19T17:55:58.304Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "employment": {
     "history": [
       {
-        "position": "Software Development Contractor",
-        "employer": "Scholars",
+        "position": "Co-founder",
+        "employer": "Signal Eleven",
         "current": true,
         "start": "2020-06-01",
         "end": "",
         "keywords": [],
         "highlights": [
-          "Building out features for Scholars' Web app. React, Redux, Hooks, Firebase."
+          "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz"
         ]
       },
       {
@@ -36,6 +36,17 @@
           "Gained project management experience by leading a team of fellow interns in building and deploying a SPA for internal use.",
           "Taught workshop on Go to full-time members of dev team."
         ]
+      },
+      {
+        "position": "Software Engineering Co-op",
+        "employer": "Yokogawa Corp. of America",
+        "start": "2017-08-18",
+        "end": "2019-05-05",
+        "keywords": [],
+        "highlights": [
+          "Designed an Android app that saved over $5000 per year in engineering time.",
+          "Created a Windows desktop app to significantly speed up QA engineers' paperwork processing times."
+        ]
       }
     ]
   },
@@ -46,12 +57,7 @@
         "institution": "Georgia Institute of Technology, December 2020",
         "grade": "3.42",
         "curriculum": [
-          "CS1332: Data Structures and Algorithms",
-          "CS2110: Computer Organization and Programming (Assembly and C)",
-          "CS2200: Intro to Systems and Networking",
-          "CS3210: Operating System Design",
-          "CS4240: Compilers and Interpreters",
-          "CS4210: Advanced Operating System Design"
+          "Specializations (Threads): Systems & Architecture and People"
         ],
         "summary": "",
         "area": "Computer Science",
@@ -123,12 +129,6 @@
           "Ubuntu",
           "shell",
           "vim"
-        ]
-      },
-      {
-        "name": "English, Spanish",
-        "skills": [
-          "Native speaker"
         ]
       }
     ]
