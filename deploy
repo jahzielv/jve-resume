@@ -1,4 +1,5 @@
 #!/bin/sh
+cp out/resume.html ~/code/jahz-co/resume.html
 cd ~/code/jahz-co
 git add .
 git commit -m "resume update"

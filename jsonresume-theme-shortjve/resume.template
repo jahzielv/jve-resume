@@ -195,6 +195,10 @@
 	</section>
 	{{/if}}
 
+	{{#if resume.yeet.length}}
+		<h1>yeet</h1>
+	{{/if}}	
+
 	{{#if resume.projects.length}}
 	<section class="experience">
 		<h2>Projects</h2>
@@ -230,6 +234,7 @@
 		{{/each}}
 	</section>
 	{{/if}}
+
 
 	{{#if resume.volunteer.length}}
 	<section class="experience">
