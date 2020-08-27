@@ -212,7 +212,7 @@
 
 	{{#if resume.projects.length}}
 	<section class="experience">
-		<h2 style="padding-bottom: 10px">Projects</h2>
+		<h2 style="padding-bottom: 10px">Selected Projects</h2>
 		{{#each resume.projects}}
 		<section class="item">
 			<header>
