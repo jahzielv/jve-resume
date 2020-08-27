@@ -26,7 +26,8 @@
             "highlights": [
                 "Transitioned key parts of State Farm's internal claims microservice and API infrastructure from on-prem to AWS.",
                 "Gained project management experience by leading a team of fellow interns in building and deploying a SPA for internal use.",
-                "Taught workshop on Go to full-time members of dev team."
+                "Taught workshop on Go to full-time members of dev team.",
+                "Maintained and improved internal React-based documentation sites."
             ],
             "keywords": ["Node.js", "AWS", "CD/CI", "React", "DevOps", "JavaScript"]
         },
@@ -57,9 +58,9 @@
             "name": "Programming Languages",
             "keywords": [
                 "C",
-                "Go",
                 "JavaScript",
                 "Rust",
+                "Go",
                 "TypeScript",
                 "Python",
                 "C#",
@@ -68,32 +69,48 @@
         },
         {
             "name": "Web Dev",
-            "keywords": ["Node.js", "React", "Redux", "Jekyll", "Flask", "HTML", "CSS"]
+            "keywords": [
+                "Node.js",
+                "Express",
+                "React",
+                "Hooks",
+                "Redux",
+                "Jekyll",
+                "Flask",
+                "HTML",
+                "CSS"
+            ]
         },
         { "name": "Mobile", "keywords": ["React Native", "Expo", "Android"] },
 
         {
-            "name": "Tools",
-            "keywords": ["Git", "GitHub", "gdb", "valgrind"]
+            "name": "Tools and platforms",
+            "keywords": [
+                "Git",
+                "gdb",
+                "valgrind",
+                "Linux/UNIX",
+                "shell/shell scripting",
+                "Relational DBs (MySQL, SQLite, Postgres)",
+                "NoSQL (Firebase Realtime DB, Dynamo DB)"
+            ]
         },
 
         {
             "name": "Cloud and Deployment",
             "keywords": [
+                "REST APIs",
                 "AWS",
                 "GCP",
+                "Firebase",
+                "Netlify",
                 "PCF",
-                "DevOps",
                 "Jenkins",
                 "TravisCI",
                 "Splunk",
                 "gRPC",
-                "REST APIs"
+                "DevOps"
             ]
-        },
-        {
-            "name": "Linux/Unix",
-            "keywords": ["Ubuntu", "shell", "vim"]
         }
     ],
 
