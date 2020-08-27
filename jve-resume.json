@@ -15,11 +15,13 @@
     "work": [
         {
             "company": "Signal Eleven",
+            "url": "https://signal11.xyz",
             "position": "Co-founder",
             "startDate": "2020-06-01",
             "endDate": "",
             "highlights": [
-                "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz"
+                "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz",
+                "Built out new feature set for Scholars' updated web app, leveraging React, Redux, and Firebase to deliver a quality recruiting experience to Scholars' customers."
             ]
         },
         {
@@ -102,38 +104,25 @@
 
     "projects": [
         {
-            "name": "ECMA-402 Task Group Member",
-            "highlights": [
-                "Documented recent ECMAScript internationalization features on Mozilla Developer Network.",
-                "Worked on a distributed team to make decisions on future internationalization features in the ECMAScript spec."
-            ],
-            "keywords": [
-                "JavaScript",
-                "ECMAScript",
-                "MDN",
-                "documentation",
-                "standards"
-            ],
-            "url": "https://developer.mozilla.org/en-US/profiles/jahzielv"
-        },
-
-        {
             "name": "libc for xv6",
-            "description": "hello darkness my old friend",
-            "highlights": [
-                "Implemented a small libc for xv6, the teaching operating system used in CS 3210.",
-                "Buffered I/O, signals, setjmp, variable argument support and more, as well as supporting system calls."
-            ],
-            "keywords": ["C", "systems programming", "assembly", "OS"]
+            "description": "Added buffered I/O, signals, setjmp, variable argument support and more, as well as supporting system calls.",
+            "url": "https://github.com/jahzielv/libc-xv6-public"
         },
 
         {
-            "name": "Assorted apps",
-            "highlights": [
-                "Hemingway: An economical RSS reader for your terminal. Built with Rust.",
-                "newpost: A little CLI that lets you create new GH Pages/Jekyl blog post files with ease. Built with Node.js.",
-                "deadbeef.app: Convert from decimal to hex to octal to binary, instantly. Built with React."
-            ]
+            "name": "Hemingway",
+            "description": "An economical RSS reader for your terminal. Built with Rust.",
+            "url": "https://github.com/jahzielv/hemingway"
+        },
+        {
+            "name": "Titan",
+            "description": "A TOML configured server and Express-like server framework for the Gemini protocol. Built by and for Rust.",
+            "url": "https://github.com/jahzielv/titan"
+        },
+        {
+            "name": "deadbeef.app",
+            "description": "Convert from decimal to hex to octal to binary, instantly. Built with React.",
+            "url": "https://deadbeef.app"
         }
     ],
     "meta": {

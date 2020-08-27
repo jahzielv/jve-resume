@@ -154,7 +154,11 @@
 		<section class="item">
 			<header>
 				{{#if company}}
+					{{#if url}}
+					<a href={{url}}><h3 class="name">{{company}}</h3> </a>
+					{{else}}
 					<h3 class="name">{{company}}</h3>
+					{{/if}}	
 				{{/if}}
 			</header>
 			{{#if position}}
@@ -205,9 +209,13 @@
 		{{#each resume.projects}}
 		<section class="item">
 			<header>
-				{{#if name}}
+					{{#if name}}
+					{{#if url}}
+					<a href={{url}}><h3 class="name">{{name}}</h3> </a>
+					{{else}}
 					<h3 class="name">{{name}}</h3>
-				{{/if}}
+					{{/if}}	
+				{{/if}}	
 			</header>
 			{{#if position}}
 			<span class="position">
@@ -216,9 +224,9 @@
 			{{/if}}
 
 
-			{{#if summary}}
+			{{#if description}}
 			<div class="summary">
-				<p>{{paragraphSplit summary}}</p>
+				<p>{{paragraphSplit description}}</p>
 			</div>
 			{{/if}}
 			{{#if highlights.length}}

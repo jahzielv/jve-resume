@@ -9,7 +9,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-08-27T22:04:03.170Z",
+    "modified": "2020-08-27T22:22:39.056Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "employment": {
@@ -22,7 +22,8 @@
         "end": "",
         "keywords": [],
         "highlights": [
-          "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz"
+          "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz",
+          "Built out new feature set for Scholars' updated web app, leveraging React, Redux, and Firebase to deliver a quality recruiting experience to Scholars' customers."
         ]
       },
       {
