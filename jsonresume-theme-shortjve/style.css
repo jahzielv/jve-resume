@@ -30,6 +30,11 @@ blockquote {
     margin: 0;
     margin-bottom: 1em;
 }
+
+h4 {
+    margin: 0;
+}
+
 #resume {
     margin: 2em 2em 2em 2.5em;
     max-width: 760px;

@@ -41,6 +41,13 @@
 					<a href="{{website}}">{{website}}</a>
 				</span>
 				{{/if}}
+
+				{{#if github}}
+				<span class="detail">
+					{{github}}
+				</span>
+				{{/if}}
+				
 				{{#if location}}
 					{{location.address}} {{location.city}}, {{location.region}} {{location.postalCode}}
 				{{/if}}
@@ -205,15 +212,15 @@
 
 	{{#if resume.projects.length}}
 	<section class="experience">
-		<h2>Projects</h2>
+		<h2 style="padding-bottom: 10px">Projects</h2>
 		{{#each resume.projects}}
 		<section class="item">
 			<header>
 					{{#if name}}
 					{{#if url}}
-					<a href={{url}}><h3 class="name">{{name}}</h3> </a>
+					<a href={{url}}><h4 class="name">{{name}}</h4> </a>
 					{{else}}
-					<h3 class="name">{{name}}</h3>
+					<h4 class="name">{{name}}</h4>
 					{{/if}}	
 				{{/if}}	
 			</header>

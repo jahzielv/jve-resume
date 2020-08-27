@@ -9,7 +9,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-08-27T22:22:39.056Z",
+    "modified": "2020-08-27T22:49:15.282Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "employment": {
@@ -22,7 +22,7 @@
         "end": "",
         "keywords": [],
         "highlights": [
-          "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz",
+          "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web.",
           "Built out new feature set for Scholars' updated web app, leveraging React, Redux, and Firebase to deliver a quality recruiting experience to Scholars' customers."
         ]
       },
@@ -46,7 +46,8 @@
         "keywords": [],
         "highlights": [
           "Designed an Android app that saved over $5000 per year in engineering time.",
-          "Created a Windows desktop app to significantly speed up QA engineers' paperwork processing times."
+          "Created a Windows desktop app to significantly speed up QA engineers' paperwork processing times.",
+          "Researched and helped implement usage of a new standard programming language and software tooling, including version control and project specifications."
         ]
       }
     ]
@@ -133,13 +134,5 @@
         ]
       }
     ]
-  },
-  "social": [
-    {
-      "label": "Github",
-      "network": "Github",
-      "url": "https://github.com/jahzielv",
-      "user": "jahzielv"
-    }
-  ]
+  }
 }

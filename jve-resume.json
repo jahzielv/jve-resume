@@ -4,13 +4,7 @@
         "email": "jve@jahz.co",
         "phone": "(404)-428-7664",
         "website": "https://jahz.co",
-        "profiles": [
-            {
-                "network": "Github",
-                "username": "jahzielv",
-                "url": "https://github.com/jahzielv"
-            }
-        ]
+        "github": "https://github.com/jahzielv"
     },
     "work": [
         {
@@ -20,7 +14,7 @@
             "startDate": "2020-06-01",
             "endDate": "",
             "highlights": [
-                "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz",
+                "Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web.",
                 "Built out new feature set for Scholars' updated web app, leveraging React, Redux, and Firebase to deliver a quality recruiting experience to Scholars' customers."
             ]
         },
@@ -43,7 +37,8 @@
             "endDate": "2019-05-05",
             "highlights": [
                 "Designed an Android app that saved over $5000 per year in engineering time.",
-                "Created a Windows desktop app to significantly speed up QA engineers' paperwork processing times."
+                "Created a Windows desktop app to significantly speed up QA engineers' paperwork processing times.",
+                "Researched and helped implement usage of a new standard programming language and software tooling, including version control and project specifications."
             ]
         }
     ],
@@ -105,7 +100,7 @@
     "projects": [
         {
             "name": "libc for xv6",
-            "description": "Added buffered I/O, signals, setjmp, variable argument support and more, as well as supporting system calls.",
+            "description": "Added buffered I/O, signals, setjmp, variable argument support and more, as well as supporting system calls. Built with C.",
             "url": "https://github.com/jahzielv/libc-xv6-public"
         },
 
@@ -121,7 +116,7 @@
         },
         {
             "name": "deadbeef.app",
-            "description": "Convert from decimal to hex to octal to binary, instantly. Built with React.",
+            "description": "Convert from decimal to hex to octal to binary, instantly. Built with React and Netlify.",
             "url": "https://deadbeef.app"
         }
     ],

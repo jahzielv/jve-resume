@@ -3,11 +3,7 @@ basics:
   email: jve@jahz.co
   phone: (404)-428-7664
   website: 'https://jahz.co'
-  profiles:
-    -
-      network: Github
-      username: jahzielv
-      url: 'https://github.com/jahzielv'
+  github: 'https://github.com/jahzielv'
 work:
   -
     company: 'Signal Eleven'
@@ -16,7 +12,7 @@ work:
     startDate: '2020-06-01'
     endDate: ""
     highlights:
-      - 'Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web. https://signal11.xyz'
+      - 'Co-founded a contract software development shop, focusing on helping startups and small businesses build great experiences on the Web.'
       - 'Built out new feature set for Scholars'' updated web app, leveraging React, Redux, and Firebase to deliver a quality recruiting experience to Scholars'' customers.'
   -
     company: 'State Farm'
@@ -42,6 +38,7 @@ work:
     highlights:
       - 'Designed an Android app that saved over $5000 per year in engineering time.'
       - 'Created a Windows desktop app to significantly speed up QA engineers'' paperwork processing times.'
+      - 'Researched and helped implement usage of a new standard programming language and software tooling, including version control and project specifications.'
 education:
   -
     institution: 'Georgia Institute of Technology, December 2020'
@@ -106,7 +103,7 @@ skills:
 projects:
   -
     name: 'libc for xv6'
-    description: 'Added buffered I/O, signals, setjmp, variable argument support and more, as well as supporting system calls.'
+    description: 'Added buffered I/O, signals, setjmp, variable argument support and more, as well as supporting system calls. Built with C.'
     url: 'https://github.com/jahzielv/libc-xv6-public'
   -
     name: Hemingway
@@ -118,7 +115,7 @@ projects:
     url: 'https://github.com/jahzielv/titan'
   -
     name: deadbeef.app
-    description: 'Convert from decimal to hex to octal to binary, instantly. Built with React.'
+    description: 'Convert from decimal to hex to octal to binary, instantly. Built with React and Netlify.'
     url: 'https://deadbeef.app'
 meta:
   canonical: 'https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json'
