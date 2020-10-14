@@ -65,6 +65,7 @@ skills:
     keywords:
       - Node.js
       - Express
+      - Websockets
       - React
       - Hooks
       - Redux
@@ -88,6 +89,7 @@ skills:
       - 'shell/shell scripting'
       - 'Relational DBs (MySQL, SQLite, Postgres)'
       - 'NoSQL (Firebase Realtime DB, Dynamo DB)'
+      - QEMU/libvirt
   -
     name: 'Cloud and Deployment'
     keywords:

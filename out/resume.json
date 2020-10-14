@@ -9,7 +9,7 @@
   "meta": {
     "version": "v1.0.1",
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-08-27T23:11:41.873Z",
+    "modified": "2020-09-10T19:39:05.894Z",
     "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json"
   },
   "employment": {
@@ -88,6 +88,7 @@
         "skills": [
           "Node.js",
           "Express",
+          "Websockets",
           "React",
           "Hooks",
           "Redux",
@@ -114,7 +115,8 @@
           "Linux/UNIX",
           "shell/shell scripting",
           "Relational DBs (MySQL, SQLite, Postgres)",
-          "NoSQL (Firebase Realtime DB, Dynamo DB)"
+          "NoSQL (Firebase Realtime DB, Dynamo DB)",
+          "QEMU/libvirt"
         ]
       },
       {
